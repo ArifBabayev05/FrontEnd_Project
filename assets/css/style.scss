@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 130px;
+}
+
+header {
+    clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+
+    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+
+    .dropdown{
+        button{
+            border: none;
+        }
+    }
+    .HeroImage {
+
+        transform: scale(0.4);
+    }
+
+    .heroButtons {
+        a {
+            span {
+                color: orange;
+            }
+        }
+    }
+    .proudly{
+        p{
+            font-size: 13px;
+            font-weight: 500;
+        }
+        img{
+            width: 120px;
+            height: 30px;
+        }
+    }
+
+
+}

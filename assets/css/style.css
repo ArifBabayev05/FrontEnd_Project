@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 130px;
+}
+
+header {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+  background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+}
+
+header .dropdown button {
+  border: none;
+}
+
+header .HeroImage {
+  -webkit-transform: scale(0.4);
+          transform: scale(0.4);
+}
+
+header .heroButtons a span {
+  color: orange;
+}
+
+header .proudly p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+header .proudly img {
+  width: 120px;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
