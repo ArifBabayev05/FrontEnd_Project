@@ -5,10 +5,6 @@
           box-sizing: border-box;
 }
 
-.container {
-  margin: 0 130px;
-}
-
 header {
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
           clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
@@ -17,6 +13,7 @@ header {
 
 header .dropdown button {
   border: none;
+  background-color: var();
 }
 
 header .HeroImage {
@@ -36,5 +33,134 @@ header .proudly p {
 header .proudly img {
   width: 120px;
   height: 30px;
+}
+
+main .btn {
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main a {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+main p {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+main .outline_intro .btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main .inputs_intro .zoom {
+  right: 3%;
+  top: 30%;
+}
+
+main .inputs_intro .success {
+  border: 1px solid #2dce89;
+}
+
+main .inputs_intro .success::-webkit-input-placeholder {
+  color: #2dce89;
+}
+
+main .inputs_intro .success:-ms-input-placeholder {
+  color: #2dce89;
+}
+
+main .inputs_intro .success::-ms-input-placeholder {
+  color: #2dce89;
+}
+
+main .inputs_intro .success::placeholder {
+  color: #2dce89;
+}
+
+main .inputs_intro .error::-webkit-input-placeholder {
+  color: #fb6340;
+}
+
+main .inputs_intro .error:-ms-input-placeholder {
+  color: #fb6340;
+}
+
+main .inputs_intro .error::-ms-input-placeholder {
+  color: #fb6340;
+}
+
+main .inputs_intro .error::placeholder {
+  color: #fb6340;
+}
+
+main .inputs_intro .error {
+  border: 1px solid #fb6340;
+}
+
+main .inputs_intro i {
+  color: rgba(128, 128, 128, 0.853);
+}
+
+main .alternative_intro {
+  background-color: #f4f5f7;
+}
+
+main .alternative_intro input {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 12px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 12px;
+}
+
+main .alternative_intro .zoom {
+  right: 3%;
+  top: 30%;
+}
+
+main .alternative_intro .success::-webkit-input-placeholder {
+  color: #2dce89;
+}
+
+main .alternative_intro .success:-ms-input-placeholder {
+  color: #2dce89;
+}
+
+main .alternative_intro .success::-ms-input-placeholder {
+  color: #2dce89;
+}
+
+main .alternative_intro .success::placeholder {
+  color: #2dce89;
+}
+
+main .alternative_intro .error::-webkit-input-placeholder {
+  color: #fb6340;
+}
+
+main .alternative_intro .error:-ms-input-placeholder {
+  color: #fb6340;
+}
+
+main .alternative_intro .error::-ms-input-placeholder {
+  color: #fb6340;
+}
+
+main .alternative_intro .error::placeholder {
+  color: #fb6340;
+}
+
+main .alternative_intro i {
+  color: rgba(128, 128, 128, 0.853);
+}
+
+main .menu_intro .navs {
+  width: 315px;
 }
 /*# sourceMappingURL=style.css.map */
