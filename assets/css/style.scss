@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
 
     clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
@@ -46,7 +47,7 @@ header {
 }
 
 main {
-    color: #510f7fbb;
+    color: #525f7f !important;
 
     .btn {
         font-weight: 500;
@@ -215,7 +216,7 @@ main {
             box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
 
             i {
-                color: #5e72e4;
+                color: #9888aa;
 
             }
         }
@@ -267,25 +268,62 @@ main {
                 transform: scale(0.8);
             }
         }
-    
+    }
 
     .carousel {
+        clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+
         .col-md-6 {
             padding: 150px 0;
         }
-        .texts{
+
+        .texts {
             align-items: center;
             top: 400px;
         }
+
         background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%);
-        #carouselExampleIndicators{
+
+        #carouselExampleIndicators {
 
             transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
+
             .carousel-inner {
                 border-radius: 5px;
             }
         }
-        
+
     }
 
+    // .carousel_section {
+    //     .jumbotron {
+    //         background-image: url('./assets/images/icons.png');
+    //         width: 100px;
+    //         height: 100px;
+    //     }
+    // }
+
+
+
+    .techs {
+        button {
+            border: none;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+
+
+        }
+    }
+
+}
+
+footer {
+    .tooltips {
+        text-align: end;
+        display: table-cell;
+
+    }
 }
