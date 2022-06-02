@@ -395,25 +395,20 @@
             </div>
 
             <!-- Toggles -->
-            <div class="toggle_intro col-md-3">
+            <div class="toggles col-md-3">
                 <p>TOGGLE BUTTONS</p>
+                <div class="form-check form-switch">
+                    <input class="form-check-input my-1" style="transform: scale(1.5);" type="checkbox" role="switch"
+                        id="flexSwitchCheckDefault">
 
-                <div class="togglebutton">
-                    <label>
-                        <input type="checkbox" checked="">
-                        Toggle is on
-                    </label>
                 </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input mt-3" style="transform: scale(1.5);" type="checkbox" role="switch"
+                        id="flexSwitchCheckChecked" checked>
 
-                <div class="togglebutton">
-                    <label>
-                        <input type="checkbox">
-                        Toggle is off
-                    </label>
                 </div>
 
             </div>
-
             <!-- Sliders -->
             <div class="sliders_intro col-md-3 pe-5">
                 <p>SLIDERS</p>
@@ -680,7 +675,7 @@
                 <h4 class="text-success mb-4">Tabs</h4>
                 <div class="row">
                     <div class="col-md-10 ml-auto col-xl-6 mr-auto">
-                        <p class="category mt-3">WITH ICONS</p>
+                        <p class="category text-muted mt-3">WITH ICONS</p>
                         <!-- Nav tabs -->
                         <ul class="nav nav-pills mb-3 me-0" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -729,7 +724,7 @@
                         </div>
                     </div>
                     <div class="col-md-10 ml-auto col-xl-6 mr-auto">
-                        <p class="category mt-3">WITH TEXT</p>
+                        <p class="category text-dark mt-3">WITH TEXT</p>
                         <!-- Nav tabs -->
                         <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -752,7 +747,7 @@
                         <div class="card mt-4 mb-5 ">
                             <div class="card-header">
                                 <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane active show" id="pills-home1" role="tabpanel"
+                                    <div class="tab-pane active show text-dark" id="pills-home1" role="tabpanel"
                                         aria-labelledby="pills-home-tab">Raw denim you probably haven't heard of them
                                         jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.
                                         Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit
@@ -1191,10 +1186,10 @@
                     <h3 class="title text-dark mb-5">Javascript Components</h3>
                     <h4 class="text-success mb-5">Models</h4>
 
-                    <!-- Modal -->
+                    <!-- Model -->
                     <div class="col-md-4">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        <button type="button" class="btn my-2 btn-primary" data-bs-toggle="modal"
                             data-bs-target="#exampleModal" style="width: 300px">
                             Default </button>
 
@@ -1223,7 +1218,7 @@
                     <!-- Modal -->
                     <div class="col-md-4">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                        <button type="button" class="btn my-2 btn-warning" data-bs-toggle="modal"
                             data-bs-target="#exampleModal" style="width: 300px">
                             NOTIFICATION </button>
 
@@ -1252,7 +1247,7 @@
                     <!-- Modal -->
                     <div class="col-md-4">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-default" data-bs-toggle="modal"
+                        <button type="button" class="btn my-2 btn-default" data-bs-toggle="modal"
                             data-bs-target="#exampleModal" style="width: 300px">
                             FORM </button>
 
@@ -1343,6 +1338,7 @@
 
 
         <!-- =============  Carousel ============= -->
+
         <section class="carousel">
             <div class="container">
                 <div class="row">
@@ -1383,14 +1379,16 @@
                                 <div class="col-lg-6">
                                     <h1 class="display-5 text-white  fw-lighter lh-1 mb-3">Bootstrap carousel
                                     </h1>
-                                    <p class="lead text-white mt-4">Argon Design System comes with four pre-built pages to help you get
+                                    <p class="lead text-white mt-4">Argon Design System comes with four pre-built pages
+                                        to help you get
                                         started faster. You can change the text and images and you're good to go.
 
                                     </p>
                                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                                         <button type="button"
-                                            class="btn bg-white text-dark btn-lg px-4 mt-4 me-md-2">See ALl Components</button>
-                                         </div>
+                                            class="btn bg-white text-dark btn-lg px-4 mt-4 me-md-2">See ALl
+                                            Components</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1403,17 +1401,221 @@
             </div>
         </section>
 
+        <!-- =============  Icons ============= -->
+        <section>
+            <div class="carousel_section container-fluid px-4 py-5 my-5 text-center" bis_skin_checked="1">
+
+                <!-- ============= Hero-Logo ============= -->
+                <div class="HeroImage lc-block d-block mx-auto mt-4 mb-4" bis_skin_checked="1">
+                    <h2 class="text-dark">Nucleo Icons</h2>
+                </div>
+
+                <!-- ============= Text ============= -->
+                <div class="lc-block col-lg-6 mx-auto mb-5" bis_skin_checked="1">
+                    <div editable="rich" bis_skin_checked="1">
+                        <p class="lead text-muted">The official package contains over 21.000 icons which are looking
+                            great in combination with Argon Design System. Make sure you check all of them and use those
+                            that you like the most.</p>
+
+                    </div>
+                </div>
+
+                <!-- ============= Buttons ============= -->
+                <div class="heroButtons mb-5 lc-block d-grid gap-2 d-sm-flex justify-content-sm-center"
+                    bis_skin_checked="1">
+                    <a class="btn bg-primary btn-lg px-4 gap-3 text-white rounded-1" href="#" role="button">VIEW DEMO
+                        ICONS</a>
+                    <a class="btn bg-dark btn-lg px-4 text-white rounded-1" href="#" role="button">VIEW ALL ICONS</a>
+                </div>
+
+                <!-- Jumbotron -->
+                <!-- <div class="jumbotron p-5 text-center bg-image rounded-3">
+                    <div class="mask">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div class="text-white">
+                                <h4 class="mb-3">Subheading</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Jumbotron  -->
+
+
+            </div>
+        </section>
+
+
+        <!-- =============  Register & Login ============= -->
+        <!-- Fix Here -->
+        <section class="carousel">
+            <div class="container">
+                <div class="row">
+                    <div class="">
+                        <div class="container col-xxl-8 px-4 py-5">
+                            <div class="row flex-lg-row-reverse g-5 py-5">
+                                <div class="col-10 col-sm-8 col-lg-6">
+                                    <form class="card container">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary mx-5">Sign in</button>
+                                    </form>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h1 class="display-5 text-white  fw-normal fs-1 lh-1 mb-3">A beautiful Design System
+                                    </h1>
+                                    <h3 class="text-white fw-light">completed with examples</h3>
+                                    <p class="lead text-white fw-lighter mt-4">The Design System comes with four
+                                        pre-built pages to help you get started faster. You can change the text and
+                                        images and you're good to go. More importantly, looking at them will give you a
+                                        picture of what you can built with this powerful Bootstrap 4 Design System.
+
+                                    </p>
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                        <button type="button"
+                                            class="btn bg-success text-white btn-lg px-4 mt-4 me-md-2">LOGIN
+                                            PAGE</button>
+                                        <button type="button"
+                                            class="btn bg-white text-dark btn-lg px-4 mt-4 me-md-2">REGISTER
+                                            PAGE</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="slider col-md-6">
+                        
+                    </div> -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =============  Presentation ============= -->
+        <section>
+            <div class="carousel_section container-fluid px-4 py-5 my-5 text-center" bis_skin_checked="1">
+
+                <!-- ============= Hero-Logo ============= -->
+                <div class="HeroImage lc-block d-block mx-auto mt-4 mb-4" bis_skin_checked="1">
+                    <h2 class="text-dark">Do you love this awesome</h2>
+                    <h3 class="text-success fw-light">Design System for Angular?</h3>
+                </div>
+
+                <!-- ============= Text ============= -->
+                <div class="lc-block col-lg-6 mx-auto mb-5" bis_skin_checked="1">
+                    <div bis_skin_checked="1">
+                        <p class="lead text-muted">Cause if you do, it can be yours for FREE. Hit the button below to
+                            navigate to Creative Tim where you can find the Design System in Angular. Start a new
+                            project or give an old Angular project a new look!</p>
+
+                    </div>
+                </div>
+
+                <!-- ============= Buttons ============= -->
+                <div class="heroButtons mb-5 lc-block d-grid gap-2 d-sm-flex justify-content-sm-center"
+                    bis_skin_checked="1">
+                    <a class="btn bg-primary btn-lg px-4 gap-3 text-white rounded-1" href="#" role="button">DOWNLOAD
+                        ANGULAR</a>
+                </div>
+
+                <div class="HeroImage lc-block d-block mx-auto mt-4 mb-4" bis_skin_checked="1">
+                    <h3 class="text-dark">Available on these technologies</h3>
+                </div>
 
 
 
 
+                <!-- ============= Using Techs ============= -->
+                <div class="techs lc-block d-grid mb-5 d-sm-flex justify-content-sm-center" bis_skin_checked="1">
+                    <button class="mx-3" href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Bootstrap - 4 Most popular front-end component library"><img
+                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg"
+                            alt="" srcset=""></button>
+
+                    <button class="mx-3" href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Angular - One framework. Mobile & detskop"><img
+                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg"
+                            alt="" srcset=""></button>
+
+                    <button class="mx-3" href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Vue.js - The progressive javascript framework"><img
+                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg"
+                            alt="" srcset=""></button>
+
+                    <button class="mx-3" href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Sketch - Digital design toolkit"><img
+                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg"
+                            alt="" srcset=""></button>
+
+                    <button class="mx-3" href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Adobe Photoshop - Software for digital images manipulation"><img
+                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg"
+                            alt="" srcset=""></button>
+
+                    <button class="mx-3" href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="[Coming Soon] React - A Javascript library for building user interface"><img
+                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"
+                            alt="" srcset=""></button>
+
+                </div>
 
 
-
-
-
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+
+        <section class="thanks container mx-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card mb-5">
+                        <img src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/theme/landing.jpg"
+                            class="card-img-top" alt="...">
+
+                    </div>
+
+                    <h4 class=" ms-5 fw-light text-primary">Thank you for supporting us!</h4>
+                    <h5 class=" ms-5 fw-light text-dark mb-5">Let's get in touch on any of these platforms.
+                    </h5>
+                </div>
+                <div class="col">
+                    <div class="card mb-5">
+                        <img src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/theme/profile.jpg"
+                            class="card-img-top" alt="...">
+
+                    </div>
+                    <div class="tooltips col-md-6 mb-5 ms-5">
+                        <button class="btn bg-twitter text-white" href="#" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Follow us"><i class="fa-brands fa-twitter"></i></button>
+
+                        <button class="btn bg-facebook text-white" href="#" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Like us"><i class="fa-brands fa-facebook-square"></i></button>
+
+                        <button class="btn bg-support text-white" href="#" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Follow us"><i class="fa-solid fa-basketball"></i></button>
+
+                        <button class="btn bg-github text-white" href="#" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Star on Github"><i class="fa-brands fa-github"></i></button>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </footer>
 
 
 

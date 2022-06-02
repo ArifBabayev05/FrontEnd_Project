@@ -54,6 +54,22 @@
   background-color: #fb6340 !important;
 }
 
+.bg-facebook {
+  background-color: #3B5999;
+}
+
+.bg-twitter {
+  background-color: #1DA1F2;
+}
+
+.bg-support {
+  background-color: #EA4C89;
+}
+
+.bg-github {
+  background-color: #222222;
+}
+
 .text-default {
   color: #172b4d !important;
 }
@@ -80,6 +96,10 @@
 
 .text-warning {
   color: #fb6340 !important;
+}
+
+.text-muted {
+  color: #525f7f !important;
 }
 
 .bg-primary-transparent {
