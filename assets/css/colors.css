@@ -81,4 +81,24 @@
 .text-warning {
   color: #fb6340 !important;
 }
+
+.bg-primary-transparent {
+  background-color: #5e72e440 !important;
+}
+
+.bg-info-transparent {
+  background-color: #11ceef47 !important;
+}
+
+.bg-success-transparent {
+  background-color: #2dce8840 !important;
+}
+
+.bg-danger-transparent {
+  background-color: #f5365c3d !important;
+}
+
+.bg-warning-transparent {
+  background-color: #fb624043 !important;
+}
 /*# sourceMappingURL=colors.css.map */
