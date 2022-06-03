@@ -113,44 +113,44 @@
                                             class="fa-brands fa-google me-2"></i>Google</button>
                                 </div>
                             </div>
-                            <div class="text-center bg-secondary ps-5 pe-5 card-body">
+                            <div id="registerForm" class="text-center bg-secondary ps-5 pe-5 card-body">
                                 <p class="mb-3 fs-8 tex-muted fw-light pb-3 mt-4">Or sign in with credentials</p>
 
-                                <div class="form-outline mb-4">
-                                    <input type="password" id="typePasswordX-2" placeholder="Name"
-                                        class="position-relative rounded-1 form-control form-control-lg" />
-                                    <i class="fa-solid fa-graduation-cap position-absolute"></i>
-                                </div>
-
-                                <div class="form-outline mb-4">
-                                    <input type="email" id="typeEmailX-2" placeholder="Email"
-                                        class="rounded-1 form-control form-control-lg" />
-                                    <i class="fa-solid fa-envelope position-absolute"></i>
-                                </div>
-
-                                <div class="form-outline mb-4">
-                                    <input type="password" id="typePasswordX-2" placeholder="Password"
-                                        class="position-relative rounded-1 form-control form-control-lg" />
-                                    <i class="fa-solid fa-key position-absolute"></i>
-                                </div>
-                                
-                                <div class="pt-4 d-flex justify-content-start mb-4">
-                                    <i class="text-muted" style="font-size: 14px;">password strength: <span class="text-success fw-bold">strong</span></i>
-                                
-                                </div>
-
-                                <!-- Checkbox -->
-                                <div class="form-check d-flex justify-content-start mb-4">
-                                    <input class="form-check-input p-2 me-1" type="checkbox" checked value=""
-                                        id="form1Example3" />
-                                    <label class="form-check-label" for="form1Example3"> I agree with the <span style="cursor: pointer;" class="text-primary" >Privacy Policy</span> </label>
+                                <form role="form" onsubmit="signUp(event);" autocomplete="off">
+                                    <div class="form-group form-outline mb-4">
+                                        <input type="text" class="rounded-1 form-control form-control-lg" name="firstName" id="name" placeholder="First Name" required>
+                                        <i class="fa-solid fa-graduation-cap position-absolute text-muted"></i>
+                                        
                                     </div>
+                                    <div class="form-group form-outline mb-4">
+                                        <input type="email" class="rounded-1 form-control form-control-lg" id="mail" placeholder="Email Address" required>
+                                        <i class="fa-solid text-muted fa-envelope position-absolute"></i>
 
-                                <button class="btn btn-primary btn-lg btn-block my-3 mb-5" type="submit">Create
-                                    Account</button>
+                                    </div>
+                                    <div class="form-group form-outline mb-4">
+                                        <input type="password" class="rounded-1 form-control form-control-lg" name="password" id="password" placeholder="Password" required>
+                                        <i class="fa-solid text-muted fa-key position-absolute"></i>
+
+                                    </div>
+                                    <div class="strength pt-4 d-flex justify-content-start mb-4">
+                                        <i class="text-muted" style="font-size: 14px;">password strength: <span class="text-success fw-bold">strong</span></i>
+                                    </div>
+    
+                                    <!-- Checkbox -->
+                                    <div class="form-check d-flex justify-content-start mb-4">
+                                        <input class="form-check-input p-2 me-1" type="checkbox" checked value=""
+                                            id="form1Example3" />
+                                        <label class="form-check-label" for="form1Example3"> I agree with the <span style="cursor: pointer;" class="text-primary" >Privacy Policy</span> </label>
+                                        </div>
+    
+                                    <div class="form-group">
+                                        <button type="submit" class="finish btn btn-primary btn-lg btn-block my-3 mb-5"><a class="text-white text-decoration-none" href="./login.html">Create Account</a></button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
