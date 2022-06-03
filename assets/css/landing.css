@@ -9,7 +9,7 @@
 header {
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
           clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
-  background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%);
 }
 
 header .dropdown button {
@@ -40,27 +40,130 @@ header .dropdown .orange {
   background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
-header .HeroImage {
-  -webkit-transform: scale(0.4);
-          transform: scale(0.4);
+.cards_on_layers .card {
+  margin-top: -60px;
 }
 
-header .heroButtons a span {
-  color: orange;
-}
-
-header .proudly p {
-  font-size: 13px;
-  font-weight: 500;
-}
-
-header .proudly img {
-  width: 120px;
-  height: 30px;
+.cards_on_layers i {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 40px;
+  margin-top: -5px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 40px;
 }
 
 main {
   color: #525f7f !important;
+}
+
+main .features .firstIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 60px;
+  margin-top: -50px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60px;
+}
+
+main .features .icons {
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+main .features .icons span {
+  margin-left: 10px;
+  margin-top: -45px;
+}
+
+main .features .icons .secondButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35px;
+  margin-top: -50px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 35px;
+}
+
+main .customers .customer_text {
+  margin: 10px 0;
+}
+
+main .customers a {
+  text-decoration: none;
+}
+
+main .interface {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+
+main .interface .card {
+  position: relative;
+  padding: 0 40px;
+  width: 470px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+main .interface .card span {
+  font-weight: 500;
+}
+
+main .interface .card i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-left: 19px;
+  padding-top: 17px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+main .interface .transparentCard {
+  background-color: #525f7f00;
+  border: none;
+}
+
+main .members button {
+  border-radius: 50% !important;
+  width: 40px;
 }
 
 main .btn {
@@ -376,4 +479,4 @@ footer .tooltips {
   text-align: end;
   display: table-cell;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=landing.css.map */

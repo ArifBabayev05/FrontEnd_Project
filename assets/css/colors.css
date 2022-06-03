@@ -35,7 +35,7 @@
 }
 
 .bg-secondary {
-  background-color: #f4f5f7 !important;
+  background-color: #d8dde761 !important;
 }
 
 .bg-info {
@@ -47,7 +47,7 @@
 }
 
 .bg-danger {
-  background-color: #f5365c !important;
+  background-color: #ff0033 !important;
 }
 
 .bg-warning {
@@ -70,6 +70,10 @@
   background-color: #222222;
 }
 
+.bg-orange {
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+
 .text-default {
   color: #172b4d !important;
 }
@@ -79,7 +83,7 @@
 }
 
 .text-secondary {
-  color: #f4f5f7 !important;
+  color: #6c757d !important;
 }
 
 .text-info {
@@ -99,7 +103,7 @@
 }
 
 .text-muted {
-  color: #525f7f !important;
+  color: #8898aa !important;
 }
 
 .bg-primary-transparent {
@@ -111,14 +115,14 @@
 }
 
 .bg-success-transparent {
-  background-color: #2dce8840 !important;
+  background-color: #03ff926f !important;
 }
 
 .bg-danger-transparent {
-  background-color: #f5365c3d !important;
+  background-color: #f232583d !important;
 }
 
 .bg-warning-transparent {
-  background-color: #fb624043 !important;
+  background-color: #ff6c4b6f !important;
 }
 /*# sourceMappingURL=colors.css.map */
