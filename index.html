@@ -1465,13 +1465,10 @@
                             get started faster. You can change the text and images and you're good to go. More
                             importantly, looking at them will give you a picture of what you can built with this
                             powerful Bootstrap 4 Design System.
-
-
-
                         </p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button" class="btn bg-success text-white btn-lg px-4 mt-4 me-md-2">Login
-                                page</button>
+                            <a href="./login.html" type="button" class="btn bg-success text-white btn-lg px-4 mt-4 me-md-2">Login
+                                page</a>
                             <button type="button" class="btn bg-white text-dark btn-lg px-4 mt-4 me-md-2">Register
                                 Page</button>
                         </div>
@@ -1480,37 +1477,40 @@
                         <div class="card mb-5  shadow-2-strong">
                             <div class="card-header bg-white text-center">
                                 <p class="mb-3 fw-light mt-2">Sign in with</p>
-                                <div class="buttons justify-content-center mb-4 d-flex">
-                                    <button class="btn btn-lg btn-block btn-white text-primary mx-1" type="submit"><i
+                                <div class="buttons justify-content-center mb-5 d-flex">
+                                    <button class="btn btn-lg btn-block btn-white text-primary mx-2" type="submit"><i
                                             class="fa-brands fa-github me-2"></i> Github</button>
-                                    <button class="btn btn-lg btn-block text-primary btn-white mx-1" type="submit"><i
+                                    <button class="btn btn-lg btn-block text-primary btn-white mx-2" type="submit"><i
                                             class="fa-brands fa-google me-2"></i>Google</button>
                                 </div>
                             </div>
-                            <div class="text-center bg-secondary ps-5 pe-5 card-body">
+                            <div id="loginForm" class="text-center bg-secondary ps-5 pe-5 card-body">
                                 <p class="mb-3 fs-8 tex-muted fw-light pb-3 mt-4">Or sign in with credentials</p>
-                                <div class="form-outline mb-4">
-                                    <input type="email" id="typeEmailX-2" placeholder="Email"
-                                        class="rounded-1 form-control form-control-lg" />
-                                    <i class="fa-solid fa-envelope position-absolute"></i>
 
-                                </div>
+                                <form role="form" onsubmit="signIn(event);" autocomplete="off">
+                                    <div class="form-group form-outline mb-4">
+                                        <input type="email" class="rounded-1 form-control form-control-lg" id="mail" placeholder="Email Address" required>
+                                        <i class="fa-solid text-muted fa-envelope position-absolute"></i>
 
-                                <div class="form-outline mb-4">
-                                    <input type="password" id="typePasswordX-2" placeholder="Password"
-                                        class="position-relative rounded-1 form-control form-control-lg" />
-                                    <i class="fa-solid fa-key position-absolute"></i>
+                                    </div>
+                                    <div class="form-group form-outline mb-4">
+                                        <input type="password" class="rounded-1 form-control form-control-lg" name="password" id="password" placeholder="Password" required>
+                                        <i class="fa-solid  text-muted  fa-key position-absolute"></i>
 
-                                </div>
+                                    </div>
 
-                                <!-- Checkbox -->
-                                <div class="form-check d-flex justify-content-start mb-4">
-                                    <input class="form-check-input p-2 me-1" type="checkbox" value=""
-                                        id="form1Example3" />
-                                    <label class="form-check-label" for="form1Example3"> Remember me </label>
-                                </div>
-
-                                <button class="btn btn-primary btn-lg btn-block mb-5" type="submit">Sign In</button>
+    
+                                    <!-- Checkbox -->
+                                    <div class="form-check d-flex justify-content-start mb-4">
+                                        <input class="form-check-input p-2 me-1" type="checkbox" value=""
+                                            id="form1Example3" />
+                                        <label class="form-check-label" for="form1Example3"> Remember me </label>
+                                        </div>
+    
+                                    <div class="form-group">
+                                        <button type="submit" class="finish btn btn-primary btn-lg btn-block my-3 mb-5"><a class="text-white text-decoration-none" href="./index.html">Login</a></button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -1519,6 +1519,11 @@
         </section>
 
         <!-- =============  Presentation ============= -->
+
+
+
+
+
         <section>
             <div class="carousel_section container-fluid px-4 py-5 my-5 text-center" bis_skin_checked="1">
 

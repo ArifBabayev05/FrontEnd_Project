@@ -12,7 +12,7 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <!--Css  -->
-    <link rel="stylesheet" href="./assets/css/register.css">
+    <link rel="stylesheet" href="./assets/css/profile.css">
     <link rel="stylesheet" href="./assets/css/colors.css">
     <title>FrontEnd Project</title>
 </head>
@@ -72,7 +72,6 @@
                                     <li><a class="dropdown-item" href="./profile.html">Profile</a></li>
                                     <li><a class="dropdown-item" href="./login.html">Login</a></li>
                                     <li><a class="dropdown-item" href="./register.html">Register</a></li>
-                                </ul>
                             </div>
 
                         </div>
@@ -97,58 +96,13 @@
             </nav>
         </div>
 
-        <!-- ============= Register Form ============= -->
+        <!-- ============= Hero ============= -->
 
-        <section class="form pt-5 ">
-            <div class="container py-5 h-50">
+        <section class="hero pt-5 carousel" style="height: 500px;">
+            <div class="container py-5">
                 <div class="row d-flex justify-content-start align-items-center">
-                    <div class=" col-12  col-md-12 col-lg-12 col-xl-12">
-                        <div class="card mb-3  shadow-2-strong">
-                            <div class="card-header bg-white text-center">
-                                <p class="mb-3 fw-light mt-2">Sign in with</p>
-                                <div class="buttons justify-content-center mb-5 d-flex">
-                                    <button class="btn btn-lg btn-block btn-white text-primary mx-2" type="submit"><i
-                                            class="fa-brands fa-github me-2"></i> Github</button>
-                                    <button class="btn btn-lg btn-block text-primary btn-white mx-2" type="submit"><i
-                                            class="fa-brands fa-google me-2"></i>Google</button>
-                                </div>
-                            </div>
-                            <div id="loginForm" class="text-center bg-secondary ps-5 pe-5 card-body">
-                                <p class="mb-3 fs-8 tex-muted fw-light pb-3 mt-4">Or sign in with credentials</p>
-
-                                <form role="form" onsubmit="signIn(event);" autocomplete="off">
-                                    <div class="form-group form-outline mb-4">
-                                        <input type="email" class="rounded-1 form-control form-control-lg" id="mail" placeholder="Email Address" required>
-                                        <i class="fa-solid text-muted fa-envelope position-absolute"></i>
-
-                                    </div>
-                                    <div class="form-group form-outline mb-4">
-                                        <input type="password" class="rounded-1 form-control form-control-lg" name="password" id="password" placeholder="Password" required>
-                                        <i class="fa-solid text-muted fa-key position-absolute"></i>
-
-                                    </div>
-    
-                                    <!-- Checkbox -->
-                                    <div class="form-check d-flex justify-content-start mb-4">
-                                        <input class="form-check-input p-2 me-1" type="checkbox" value=""
-                                            id="form1Example3" />
-                                        <label class="form-check-label" for="form1Example3"> Remember me </label>
-                                        </div>
-    
-                                    <div class="form-group">
-                                        <button type="submit" class="finish btn btn-primary btn-lg btn-block my-3 mb-5"><a class="text-white text-decoration-none" href="./index.html">Login</a></button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="underCard d-flex">
-                            <div class="col-6">
-                                <a href="./register.html" style="font-size: 14px;" class="text-decoration-none text-muted">Forgot Password?</a>
-                            </div>
-                            <div class="col-6">
-                                <a style="font-size: 14px;" href="./register.html" class="text-decoration-none float-end text-muted">Create New Account</a>
-                            </div>
-                        </div>
+                    <div class="col-lg-6 me-5 pe-4 mt-5">
+                        
                     </div>
                 </div>
             </div>
@@ -158,20 +112,55 @@
     <!-- ============= Header Ends ============= -->
 
 
+    <!-- ============= Cards ============= -->
+    <section class="members container" >
+      
+        <div class="row position-relative w-100 text-center">
+          <div class="col-md-12 mb-md-0">
+              
+            <div class="card col-12 testimonial-card">
 
-    <footer>
+              <div class="card-up"></div>
+              <div class="avatar bg-white">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="name card-body">
+                <h4 class="mb-4">Maria Smantha</h4>
+                <p>Baku, Azerbaijan</p>
+
+                <h5 class="fw-light">Solution Manager - Creative Tim Officer</h5>
+                <h5 class="tex-muted fw-light mb-3">University of Computer Science</h5>
+                <hr class="bg-secondary fw-lighter" />
+                <p class="fw-light text-muted container textArea  dark-grey-text mt-4">
+                    An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick <br> Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a <br> solid groove structure. An artist of considerable range.
+                </p>
+                <a class="mb-5 text-decoration-none text-primary" href="">Show More</a>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </section>
+
+
+
+
+    <main>
+              
+    </main>
+    <footer class="bg-secondary mt-5 pt-5">
 
         <section class="mb-3 thanks container mx-5">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
 
-
-                    <h4 class=" ms-5 fw-light text-primary">Thank you for supporting us!</h4>
-                    <h5 class=" ms-5 fw-light text-dark mb-5">Let's get in touch on any of these platforms.
-                    </h5>
+                    <h3 class=" ms-5 fw-light text-primary">Thank you for supporting us!</h3>
+                    <h4 class=" ms-5 fw-light text-dark mb-5">Let's get in touch on any of these platforms.
+                    </h4>
                 </div>
                 <div class="col">
-
                     <div class="tooltips col-md-6 mb-5 ms-5">
                         <button class="btn bg-twitter text-white" href="#" data-bs-toggle="tooltip"
                             data-bs-placement="top" title="Follow us"><i class="fa-brands fa-twitter"></i></button>
@@ -190,7 +179,7 @@
 
 
                 </div>
-                <hr class="w-100 col-12 px-5 mt-4 mb-4 container">
+                <hr class="w-100 col-12 px-5 mt-4 mb-4 fw-lighter container">
                 <div class="col-6">
                     <p class="ms-5 container">©2022 <span class="text-dark" class="text-primary">Creative Tim</span
                             class="text-dark">.</p>
