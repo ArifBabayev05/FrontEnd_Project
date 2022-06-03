@@ -166,6 +166,71 @@ main .members button {
   width: 40px;
 }
 
+main .members .downloadCard {
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  padding: 60px 20px;
+  border: none;
+}
+
+main .members .downloadCard .card-body {
+  line-height: 2em;
+}
+
+main .members .downloadCard .button {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  outline: none;
+}
+
+main .members .downloadCard .button a {
+  width: 60%;
+}
+
+main .build {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+  padding-top: 60px;
+  padding-bottom: 200px;
+}
+
+main .build .firstIcon {
+  padding: 25px;
+  position: initial;
+  display: table-cell;
+}
+
+main .build .card-body {
+  text-align: initial;
+}
+
+main .wantToWork {
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
+  margin-bottom: 100px;
+  padding: 30px 40px;
+  margin-top: -200px;
+  background: linear-gradient(87deg, #f4f5f7 0, #f4f4f7 100%);
+}
+
+main .wantToWork input, main .wantToWork textarea, main .wantToWork button {
+  border-radius: 3px;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
+}
+
 main .btn {
   font-weight: 500;
   text-transform: uppercase;
@@ -239,231 +304,6 @@ main .inputs_intro .error {
 
 main .inputs_intro i {
   color: rgba(128, 128, 128, 0.853);
-}
-
-main .alternative_intro {
-  background-color: #f4f5f7;
-}
-
-main .alternative_intro input {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 12px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 12px;
-}
-
-main .alternative_intro .zoom {
-  right: 3%;
-  top: 30%;
-}
-
-main .alternative_intro .success::-webkit-input-placeholder {
-  color: #2dce89;
-}
-
-main .alternative_intro .success:-ms-input-placeholder {
-  color: #2dce89;
-}
-
-main .alternative_intro .success::-ms-input-placeholder {
-  color: #2dce89;
-}
-
-main .alternative_intro .success::placeholder {
-  color: #2dce89;
-}
-
-main .alternative_intro .error::-webkit-input-placeholder {
-  color: #fb6340;
-}
-
-main .alternative_intro .error:-ms-input-placeholder {
-  color: #fb6340;
-}
-
-main .alternative_intro .error::-ms-input-placeholder {
-  color: #fb6340;
-}
-
-main .alternative_intro .error::placeholder {
-  color: #fb6340;
-}
-
-main .alternative_intro i {
-  color: rgba(128, 128, 128, 0.853);
-}
-
-main .menu_intro .navs {
-  width: 315px;
-}
-
-main .tabs .nav-pills .nav-link.active,
-main .tabs .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #5e72e4;
-}
-
-main .tabs li.nav-item {
-  width: 33%;
-}
-
-main .tabs button {
-  width: 95%;
-  margin: 0 10px;
-  -webkit-box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-          box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-}
-
-main .tabs .card {
-  background: none;
-  border: none;
-  -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
-          box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
-}
-
-main .tabs .card-header {
-  border: none;
-}
-
-main .progress_bar span {
-  background-color: rgba(94, 114, 228, 0.1);
-  color: #5e72e4;
-  border-radius: 10px;
-  padding: 0px 10px;
-  font-size: 14px;
-}
-
-main .progress_bar .progress {
-  height: 10px;
-}
-
-main .pagination a {
-  margin: 0 3px;
-  border-radius: 50%;
-  width: 40px;
-  text-align: center;
-}
-
-main .pagination a .number:hover {
-  background-color: red;
-}
-
-main .pill .atom {
-  background-color: #5e72e4;
-  padding: 20px;
-  margin-right: 10px;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 55px;
-}
-
-main .pill .atom i {
-  color: white;
-}
-
-main .pill .message {
-  padding: 20px;
-  margin-right: 10px;
-  border-radius: 50%;
-  width: 55px;
-  -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
-          box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
-}
-
-main .pill .message i {
-  color: #9888aa;
-}
-
-main .texts .title {
-  font-weight: 400;
-}
-
-main .texts h1,
-main .texts h2,
-main .texts h3,
-main .texts h4,
-main .texts h5,
-main .texts h6 {
-  font-weight: 400;
-}
-
-main .texts .col-3,
-main .texts .col-9 {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 15px 0;
-}
-
-main .texts .col-9 p {
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 1.7;
-}
-
-main .date input {
-  width: 300px;
-  padding: 10px;
-  border: 1px solid gainsboro;
-  border-radius: 5px;
-}
-
-main .Tooltips_Popovers .tooltips button {
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
-}
-
-main .carousel {
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
-          clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
-  background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%);
-}
-
-main .carousel .col-md-6 {
-  padding: 150px 0;
-}
-
-main .carousel .texts {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  top: 400px;
-}
-
-main .carousel #carouselExampleIndicators {
-  -webkit-transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
-          transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
-}
-
-main .carousel #carouselExampleIndicators .carousel-inner {
-  border-radius: 5px;
-}
-
-main .register_login .card {
-  -webkit-transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
-          transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
-  border-radius: 4px;
-}
-
-main .register_login .card-header {
-  border: none;
-}
-
-main .register_login button {
-  border: none;
-}
-
-main .register_login input {
-  border: none;
-  font-size: 12px;
-}
-
-main .register_login i {
-  margin-top: -25px;
-  right: 13%;
 }
 
 main .techs button {

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0248232ed4.js" crossorigin="anonymous"></script>
+    <link href='https://css.gg/shopping-bag.css' rel='stylesheet'>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--Css  -->
+    <link rel="stylesheet" href="./assets/css/register.css">
+    <link rel="stylesheet" href="./assets/css/colors.css">
+    <title>FrontEnd Project</title>
+</head>
+
+<body>
+    <!-- ============= Header Start ============= -->
+    <header>
+        <div>
+            <!-- ============= Navbar ============= -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+
+                    <!-- ============= Logo ============= -->
+                    <a href="./index.html" class="navbar-brand">
+                        <img src="./assets/images/argon-white.png" height="28" alt="CoolBrand">
+                    </a>
+
+                    <!-- ============= X Button For Small Screen Size ============= -->
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="text-dark" class="navbar-toggler-icon"></span class="text-dark">
+                    </button>
+
+                    <!-- ============= Navigations ============= -->
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav">
+                            <div class="dropdown mx-3">
+                                <button class="btn text-white" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Components
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li class="my-2 "><a class="dropdown-item col-12" href="#"><i
+                                                class="purple text-white fa-solid fa-rocket mx-1"></i> <span
+                                                class="text-dark" class="text-dark">Getting Started</span
+                                                class="text-dark"></a></li>
+                                    <li class="my-2 "><a class="dropdown-item col-12" href="#"><i
+                                                class="green text-white fa-solid fa-palette mx-1"></i><span
+                                                class="text-dark" class="text-primary">Foundation</span
+                                                class="text-dark"></a>
+                                    </li>
+                                    <li class="my-2 "><a class="dropdown-item col-12" href="#"><i
+                                                class="orange text-white fa-solid fa-toggle-off mx-1"></i><span
+                                                class="text-dark" class="text-warning">Components</span
+                                                class="text-dark"></a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="dropdown mx-3">
+                                <button class="btn text-white " type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Examples
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="./landing.html">Landing</a></li>
+                                    <li><a class="dropdown-item" href="./profile.html">Profile</a></li>
+                                    <li><a class="dropdown-item" href="./login.html">Login</a></li>
+                                    <li><a class="dropdown-item" href="./register.html">Register</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <!-- ============= Social Media  icons d-flex ============= -->
+                        <div class="navbar-nav ms-auto">
+                            <div class="socials mt-2 me-3">
+                                <i class="fa-brands  me-2 text-white fa-facebook-square"></i>
+                                <i class="fa-brands  me-2 text-white fa-instagram"></i>
+                                <i class="fa-brands  me-2 text-white fa-twitter-square"></i>
+                                <i class="fa-brands  me-2 text-white fa-github"></i>
+
+
+                            </div>
+                            <!-- ============= Download Button ============= -->
+                            <button type="button" class="btn bg-white text-primary"><i
+                                    class="fa-solid fa-cloud-arrow-down me-2"></i>Download</button>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- ============= Register Form ============= -->
+
+        <section class="form pt-5 ">
+            <div class="container py-5 h-50">
+                <div class="row d-flex justify-content-start align-items-center">
+                    <div class=" col-12  col-md-12 col-lg-12 col-xl-12">
+                        <div class="card mb-4  shadow-2-strong">
+                            <div class="card-header bg-white text-center">
+                                <p class="mb-3 fw-light mt-2">Sign in with</p>
+                                <div class="buttons justify-content-center mb-5 d-flex">
+                                    <button class="btn btn-lg btn-block btn-white text-primary mx-2" type="submit"><i
+                                            class="fa-brands fa-github me-2"></i> Github</button>
+                                    <button class="btn btn-lg btn-block text-primary btn-white mx-2" type="submit"><i
+                                            class="fa-brands fa-google me-2"></i>Google</button>
+                                </div>
+                            </div>
+                            <div class="text-center bg-secondary ps-5 pe-5 card-body">
+                                <p class="mb-3 fs-8 tex-muted fw-light pb-3 mt-4">Or sign in with credentials</p>
+
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="typeEmailX-2" placeholder="Email"
+                                        class="rounded-1 form-control form-control-lg" />
+                                    <i class="fa-solid fa-envelope position-absolute"></i>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input type="password" id="typePasswordX-2" placeholder="Password"
+                                        class="position-relative rounded-1 form-control form-control-lg" />
+                                    <i class="fa-solid fa-key position-absolute"></i>
+                                </div>
+
+                                <!-- Checkbox -->
+                                <div class="form-check d-flex justify-content-start mb-4">
+                                    <input class="form-check-input p-2 me-1" type="checkbox"  value=""
+                                        id="form1Example3" />
+                                    <label class="form-check-label" for="form1Example3"> Remember me </label>
+                                    </div>
+
+                                <button class="btn btn-primary btn-lg btn-block my-3 mb-5" type="submit">SIGN IN</button>
+                            </div>
+                        </div>
+                       <div class="underCard mb-4 d-flex">
+                        <div class="col-6 fw-light text-muted"><p>Forgot password?</p></div>
+                        <div class="col-6 fw-light float-end text-muted"><p style="float: inherit;">Create new account</p></div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <!-- ============= Header Ends ============= -->
+
+
+
+    <footer>
+
+        <section class="mb-3 thanks container mx-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+
+
+                    <h4 class=" ms-5 fw-light text-primary">Thank you for supporting us!</h4>
+                    <h5 class=" ms-5 fw-light text-dark mb-5">Let's get in touch on any of these platforms.
+                    </h5>
+                </div>
+                <div class="col">
+
+                    <div class="tooltips col-md-6 mb-5 ms-5">
+                        <button class="btn bg-twitter text-white" href="#" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Follow us"><i class="fa-brands fa-twitter"></i></button>
+
+                        <button class="btn bg-facebook text-white" href="#" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Like us"><i
+                                class="fa-brands fa-facebook-square"></i></button>
+
+                        <button class="btn bg-support text-white" href="#" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Follow us"><i class="fa-solid fa-basketball"></i></button>
+
+                        <button class="btn bg-github text-white" href="#" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Star on Github"><i class="fa-brands fa-github"></i></button>
+
+                    </div>
+
+
+                </div>
+                <hr class="w-100 col-12 px-5 mt-4 mb-4 container">
+                <div class="col-6">
+                    <p class="ms-5 container">©2022 <span class="text-dark" class="text-primary">Creative Tim</span
+                            class="text-dark">.</p>
+                </div>
+                <div class="col-6  justify-content-end d-flex">
+                    <a class="mx-1 me-5  text-decoration-none text-muted" href="">Creative Tim</a>
+                    <a class="mx-1 me-5  text-decoration-none text-muted" href="">About Us</a>
+                    <a class="mx-1 me-5  text-decoration-none text-muted" href="">Blog</a>
+                    <a class="mx-1 me-5  text-decoration-none text-muted" href="">MIT License</a>
+                </div>
+
+            </div>
+        </section>
+
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

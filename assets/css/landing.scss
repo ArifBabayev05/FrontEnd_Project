@@ -158,7 +158,67 @@ main {
             border-radius: 50% !important;
             width: 40px;
         }
+        .downloadCard{
+            box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+            padding: 60px 20px;
+            border: none;
+
+            .card-body{
+                line-height:2em;
+
+            }
+            
+            .button{
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                top: 50px;
+                display: flex;
+                border: none;
+                outline: none;
+                
+                a{
+                    width:60%;
+                }
+            }
+        }
+    
+        
     }
+    .build{
+        clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+        padding-top: 60px;
+        padding-bottom: 200px;
+        .firstIcon{
+            padding: 25px;
+            position: initial;
+            display: table-cell;
+
+        }
+
+        .card-body{
+            text-align: initial;
+        }
+
+        
+    }
+    .wantToWork{
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
+        margin-bottom: 100px;
+        padding: 30px 40px; 
+        margin-top: -200px; 
+        background: linear-gradient(87deg,#f4f5f7 0,#f4f4f7 100%);
+
+        
+        input,textarea,button{
+            border-radius: 3px;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
+
+        }
+    }
+
 
 
     .btn {
@@ -215,230 +275,7 @@ main {
         }
     }
 
-    .alternative_intro {
-        background-color: #f4f5f7;
-
-        input {
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 12px;
-
-        }
-
-        .zoom {
-            right: 3%;
-            top: 30%;
-        }
-
-        .success::placeholder {
-            color: #2dce89
-        }
-
-        .error::placeholder {
-            color: #fb6340;
-        }
-
-        i {
-            color: rgba(128, 128, 128, 0.853);
-        }
-    }
-
-    .menu_intro {
-        .navs {
-            width: 315px;
-        }
-    }
-
-    .tabs {
-
-        .nav-pills .nav-link.active,
-        .nav-pills .show>.nav-link {
-            color: #fff;
-            background-color: #5e72e4;
-        }
-
-        li.nav-item {
-            width: 33%;
-        }
-
-        button {
-            width: 95%;
-            margin: 0 10px;
-            box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-        }
-
-
-        .card {
-            background: none;
-            border: none;
-            box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
-        }
-
-        .card-header {
-            border: none;
-        }
-    }
-
-    .progress_bar {
-        span {
-            background-color: rgba(94, 114, 228, .1);
-            color: #5e72e4;
-            border-radius: 10px;
-            padding: 0px 10px;
-            font-size: 14px;
-        }
-
-        .progress {
-            height: 10px;
-        }
-    }
-
-    .pagination {
-        a {
-            margin: 0 3px;
-            border-radius: 50%;
-            width: 40px;
-            text-align: center;
-
-            .number:hover {
-                background-color: red;
-            }
-        }
-    }
-
-    .pill {
-
-        .atom {
-            background-color: #5e72e4;
-            padding: 20px;
-            margin-right: 10px;
-            border-radius: 50%;
-            display: flex;
-            width: 55px;
-
-            i {
-                color: white;
-
-            }
-        }
-
-        .message {
-            padding: 20px;
-            margin-right: 10px;
-            border-radius: 50%;
-            width: 55px;
-            box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
-
-            i {
-                color: #9888aa;
-
-            }
-        }
-    }
-
-    .texts {
-        .title {
-            font-weight: 400;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-weight: 400;
-
-        }
-
-        .col-3,
-        .col-9 {
-            align-items: center;
-            display: flex;
-            margin: 15px 0;
-        }
-
-        .col-9 {
-            p {
-                font-size: 1rem;
-                font-weight: 300;
-                line-height: 1.7;
-            }
-        }
-    }
-
-    .date {
-        input {
-            width: 300px;
-            padding: 10px;
-            border: 1px solid gainsboro;
-            border-radius: 5px;
-        }
-    }
-
-    .Tooltips_Popovers {
-        .tooltips {
-            button {
-                transform: scale(0.8);
-            }
-        }
-    }
-
-    .carousel {
-        clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
-
-        .col-md-6 {
-            padding: 150px 0;
-        }
-
-        .texts {
-            align-items: center;
-            top: 400px;
-        }
-
-        background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%);
-
-        #carouselExampleIndicators {
-
-            transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
-
-            .carousel-inner {
-                border-radius: 5px;
-            }
-        }
-
-    }
-
-    // .carousel_section {
-    //     .jumbotron {
-    //         background-image: url('./assets/images/icons.png');
-    //         width: 100px;
-    //         height: 100px;
-    //     }
-    // }
-    .register_login {
-        .card {
-            transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
-            border-radius: 4px;
-        }
-
-        .card-header {
-            border: none;
-        }
-
-        button {
-            border: none;
-        }
-
-        input {
-            border: none;
-            font-size: 12px;
-        }
-
-        i {
-            margin-top: -25px;
-            right: 13%;
-        }
-    }
-
+   
 
 
     .techs {
