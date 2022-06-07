@@ -14,12 +14,15 @@
     <!--Css  -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/colors.css">
+    <link rel="stylesheet" href="./assets/css/hover.css">
+
     <title>FrontEnd Project</title>
 </head>
 
 <body>
     <!-- ============= Header Start ============= -->
     <header>
+
         <div class="dot">
             <span></span>
             <span></span>
@@ -28,9 +31,10 @@
             <span></span>
             <span></span>
         </div>
+
         <div>
             <!-- ============= Navbar ============= -->
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar  navbar-expand-lg navbar-light">
                 <div class="container">
 
                     <!-- ============= Logo ============= -->
@@ -48,20 +52,23 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav">
                             <div class="dropdown mx-3">
-                                <button class="btn text-white" type="button" id="dropdownMenuButton1"
+                                <button class="btn text-white " type="button" id="dropdownMenuButton1"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Components
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                     <li class="my-2 "><a class="dropdown-item col-12" href="#"><i
-                                                class="purple text-white fa-solid fa-rocket mx-1"></i> <span class="text-dark">Getting Started</span></a></li>
+                                                class="purple text-white fa-solid fa-rocket mx-1"></i> <span
+                                                class="text-dark">Getting Started</span></a></li>
                                     <li class="my-2 "><a class="dropdown-item col-12" href="#"><i
-                                                class="green text-white fa-solid fa-palette mx-1"></i><span class="text-primary">Foundation</span></a>
+                                                class="green text-white fa-solid fa-palette mx-1"></i><span
+                                                class="text-primary">Foundation</span></a>
                                     </li>
                                     <li class="my-2 "><a class="dropdown-item col-12" href="#"><i
-                                        class="orange text-white fa-solid fa-toggle-off mx-1"></i><span class="text-warning">Components</span></a>
+                                                class="orange text-white fa-solid fa-toggle-off mx-1"></i><span
+                                                class="text-warning">Components</span></a>
                                     </li>
-                                 
+
                                 </ul>
                             </div>
                             <div class="dropdown mx-3">
@@ -90,8 +97,8 @@
 
                             </div>
                             <!-- ============= Download Button ============= -->
-                            <button type="button" class="btn bg-white text-primary"><i
-                                    class="fa-solid fa-cloud-arrow-down me-2"></i>Download</button>
+                            <button type="button" class="btn border-0 bg-white text-primary"><i
+                                    class="nonOutline fa-solid fa-cloud-arrow-down  me-2"></i>Download</button>
 
                         </div>
                     </div>
@@ -99,8 +106,14 @@
             </nav>
         </div>
 
+        <!-- <div class="position- col-6 justify-content-center container topAlert mt-3 alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div> -->
         <!-- ============= Hero Section ============= -->
         <div class="container-fluid px-4 py-5 my-5 text-center" bis_skin_checked="1">
+
+
 
             <!-- ============= Hero-Logo ============= -->
             <div class="HeroImage lc-block d-block mx-auto" bis_skin_checked="1">
@@ -120,11 +133,12 @@
             </div>
 
             <!-- ============= Buttons ============= -->
-            <div class="heroButtons lc-block d-grid gap-2 d-sm-flex justify-content-sm-center" bis_skin_checked="1">
-                <a class="btn bg-white btn-lg px-4 gap-3 text-dark rounded-2" href="#" role="button"><i
-                        class="fa-solid fa-cloud-arrow-down me-2"></i>Download Angular</a>
-                <a class="btn bg-dark btn-lg px-4 text-white rounded-2" href="#" role="button"><i
-                        class="fa-brands fa-github me-2"></i><span>Star Us</span> On Github</a>
+            <div class="heroButtons border-0 lc-block d-grid gap-2 d-sm-flex justify-content-sm-center"
+                bis_skin_checked="1">
+                <a class="btn bg-white border-0 btn-lg px-4 gap-3 text-dark goUp rounded-2" href="#" role="button"><i
+                        class="fa-solid border-0 fa-cloud-arrow-down me-2"></i>Download Angular</a>
+                <a class="btn bg-dark border-0 btn-lg px-4 text-white outline-0 goUp rounded-2" href="#"
+                    role="button"><i class="fa-brands border-0 fa-github me-2"></i><span>Star Us</span> On Github</a>
             </div>
 
             <!-- ============= Designed By ============= -->
@@ -142,8 +156,8 @@
 
     <main>
         <!-- ============= Basic Elements ============= -->
-        <section class="container">
-            <div class="title">
+        <section class="basic_elements container">
+            <div class=" title">
                 <h2 class="text-dark">Basic Elements</h2>
             </div>
 
@@ -151,31 +165,33 @@
             <div class="buttons_intro mt-5">
                 <h4 class="text-success mb-4">Buttons</h4>
 
-                <button class="btn btn-primary mx-1 py-2 px-4 ">Button</button>
-                <button class="btn btn-primary mx-1 py-2 px-3 "><i class="fa-solid fa-box-archive  me-3"></i>With
+                <button class="btn border-0 goUp  btn-primary mx-1 py-2 px-4 ">Button</button>
+                <button class="btn border-0 goUp btn-primary mx-1 py-2 px-3  "><i
+                        class="fa-solid fa-box-archive  me-3"></i>With
                     Icon</button>
-                <button class="btn btn-primary mx-1 py-2 px-3 "><i class="fa-solid fa-box-archive p-1"></i></button>
+                <button class="btn border-0 goUp btn-primary mx-1 py-2 px-3 "><i
+                        class="fa-solid fa-box-archive p-1"></i></button>
             </div>
 
             <!-- ============= Pick Your Size ============= -->
             <div class="size_intro mt-5 mb-2">
                 <p class="mb-4">PICK YOUR SIZE</p>
 
-                <button class="btn btn-primary mx-1 btn-sm">Small</button>
-                <button class="btn btn-primary mx-1 ">Regular</button>
-                <button class="btn btn-primary btn-lg mx-0">Large Button</button>
+                <button class="btn border-0 goUp btn-primary mx-1 btn-sm">Small</button>
+                <button class="btn border-0 goUp btn-primary mx-1 ">Regular</button>
+                <button class="btn border-0 goUp btn-primary btn-lg mx-0">Large Button</button>
             </div>
 
             <!-- ============= Pick Your Color ============= -->
             <div class="color_intro mt-5 mb-2">
                 <p class="mb-4">PICK YOUR COLOR</p>
 
-                <button class="btn btn-primary mx-1 px-3 ">Primary</button>
-                <button class="btn btn-info mx-1  px-3">Info</button>
-                <button class="btn btn-success mx-1  px-3">Success</button>
-                <button class="btn btn-warning mx-1  px-3">Warning</button>
-                <button class="btn btn-danger mx-1  px-3">Danger</button>
-                <button class="btn btn-white mx-1 text-primary  px-3">Neutral</button>
+                <button class="btn goUp border-0 colorButton btn-primary mx-1 my-2 px-3 ">Primary</button>
+                <button class="btn goUp border-0 colorButton btn-info mx-1  my-2 px-3">Info</button>
+                <button class="btn goUp border-0 colorButton btn-success mx-1  my-2 px-3">Success</button>
+                <button class="btn goUp border-0 colorButton btn-warning mx-1 my-2 px-3">Warning</button>
+                <button class="btn goUp border-0 colorButton btn-danger my-2 mx-1 px-3">Danger</button>
+                <button class="btn goUp border-0  btn-white mx-1 text-primary  my-1 px-3">Neutral</button>
 
             </div>
 
@@ -183,11 +199,12 @@
             <div class="outline_intro mt-5 mb-2">
                 <p class="mb-4">OUTLINE</p>
 
-                <button class="btn text-primary btn-outline-primary mx-1 px-3 ">Outline-Primary</button>
-                <button class="btn text-info btn-outline-info mx-1  px-3">Info</button>
-                <button class="btn text-success btn-outline-success mx-1  px-3">Success</button>
-                <button class="btn text-warning btn-outline-warning mx-1  px-3">Warning</button>
-                <button class="btn text-danger btn-outline-danger mx-1  px-3">Danger</button>
+                <button
+                    class="btn colorButton goUp text-primary btn-outline-primary mx-1 px-3 ">Outline-Primary</button>
+                <button class="btn colorButton goUp text-info btn-outline-info mx-1 my-2 px-3">Info</button>
+                <button class="btn colorButton goUp text-success btn-outline-success my-2 mx-1  px-3">Success</button>
+                <button class="btn colorButton goUp text-warning btn-outline-warning my-2 mx-1  px-3">Warning</button>
+                <button class="btn colorButton goUp text-danger btn-outline-danger mx-1 my-2 px-3">Danger</button>
 
 
             </div>
@@ -196,12 +213,12 @@
             <div class="link_intro mt-5 mb-5">
                 <p class=" mb-4">LINKS</p>
 
-                <a href="" class="mx-3 text-decoration-none text-dark">DEFAULT</a>
-                <a href="" class="mx-3 text-decoration-none text-primary">PRIMARY</a>
-                <a href="" class="mx-3 text-decoration-none text-info">INFO</a>
-                <a href="" class="mx-3 text-decoration-none text-success">SUCCESS</a>
-                <a href="" class="mx-3 text-decoration-none text-warning">WARNING</a>
-                <a href="" class="mx-3 text-decoration-none text-danger">DANGER</a>
+                <a href="" class="mx-3 text-decoration-none my-2 text-dark">DEFAULT</a>
+                <a href="" class="mx-3 text-decoration-none my-2 text-primary">PRIMARY</a>
+                <a href="" class="mx-3 text-decoration-none my-2 text-info">INFO</a>
+                <a href="" class="mx-3 text-decoration-none my-2 text-success">SUCCESS</a>
+                <a href="" class="mx-3 text-decoration-none my-2 text-warning">WARNING</a>
+                <a href="" class="mx-3 text-decoration-none my-2 text-danger">DANGER</a>
             </div>
 
             <!-- ============= Inputs ============= -->
@@ -434,7 +451,7 @@
         </section>
 
         <!-- ============= Menu ============= -->
-        <section class=" d-flex ">
+        <section class="menu d-flex ">
             <div class="container mt-5">
                 <h4 class="mb-4 text-success ">Menu</h4>
 
@@ -1204,8 +1221,8 @@
                     <!-- Model -->
                     <div class="col-md-4">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn my-2 btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal" style="width: 300px">
+                        <button type="button" class="btn  goUp my-2 btn-primary colorButton border-0"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 300px">
                             Default </button>
 
                         <!-- Modal -->
@@ -1214,75 +1231,87 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Type your modal title</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
-                                        ...
+                                    <div class="modal-body m-2 fw-light">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                                        right at the coast of the Semantics, a large language ocean.
+                                        A small river named Duden flows by their place and supplies it with the
+                                        necessary regelialia. It is a paradisematic country, in which roasted parts of
+                                        sentences fly into your mouth.
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
+                                    <div class="modal-footer py-4 position-relative">
+                                        <button type="button" class="left-0 position-absolute btn btn-primary">Save
+                                            changes</button>
+                                        <button type="button" class=" text-primary border-0 bg-white "
                                             data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Modal -->
+                    <!-- Modal 2-->
                     <div class="col-md-4">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn my-2 btn-warning" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal" style="width: 300px">
+                        <button type="button" class="btn my-2  goUp colorButton  border-0 btn-warning"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal2" style="width: 300px">
                             NOTIFICATION </button>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        ...
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
+                        <!-- Modal  2-->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Type your modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body m-2">
+                                   adisematic country, in which roasted parts of
+                                    sentences fly into your mouth.
+                                </div>
+                                <div class="modal-footer py-4 position-relative">
+                                    <button type="button" class="left-0 position-absolute btn btn-primary">Save
+                                        changes</button>
+                                    <button type="button" class=" text-primary border-0 bg-white "
+                                        data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Modal -->
+                    </div>
+                    <!-- Modal 3 -->
                     <div class="col-md-4">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn my-2 btn-default" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal" style="width: 300px">
+                        <button type="button" class="btn colorButton border-0 goUp my-2  btn-default color-white"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal3" style="width: 300px">
                             FORM </button>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        <!-- Modal 3-->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Type your modal title</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
-                                        ...
+                                    <div class="modal-body m-2">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                                        rightsematic country, in which roasted parts of
+                                        sentences fly into your mouth.
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
+                                    <div class="modal-footer py-4 position-relative">
+                                        <button type="button" class="left-0 position-absolute btn btn-primary">Save
+                                            changes</button>
+                                        <button type="button" class=" text-primary border-0 bg-white "
                                             data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
                                     </div>
                                 </div>
                             </div>
@@ -1326,25 +1355,25 @@
                     <h4 class="text-success mb-4">Tooltips & Popovers</h4>
                     <div class="tooltips col-md-6 mb-5">
                         <p>TOOLTIPS</p>
-                        <button class="btn bg-primary text-white" href="#" data-bs-toggle="tooltip"
+                        <button class="btn goUp border-0 bg-primary text-white" href="#" data-bs-toggle="tooltip"
                             data-bs-placement="top" title="TOP!">Top</button>
-                        <button class="btn bg-primary text-white" href="#" data-bs-toggle="tooltip"
+                        <button class="btn  goUp border-0 bg-primary text-white" href="#" data-bs-toggle="tooltip"
                             data-bs-placement="bottom" title="BOTTOM!">Bottom</button>
-                        <button class="btn bg-primary text-white" href="#" data-bs-toggle="tooltip"
+                        <button class="btn goUp border-0  bg-primary text-white" href="#" data-bs-toggle="tooltip"
                             data-bs-placement="left" title="LEFT!">Left</button>
-                        <button class="btn bg-primary text-white" href="#" data-bs-toggle="tooltip"
+                        <button class="btn goUp border-0  bg-primary text-white" href="#" data-bs-toggle="tooltip"
                             data-bs-placement="right" title="RIGHT!">Right</button>
                     </div>
                     <div class="tooltips col-md-6 mb-5">
                         <p>POPOVERS</p>
-                        <button class="btn bg-primary text-white" href="#" data-bs-toggle="popover"
-                            data-bs-placement="top" title="Hooray!">Top</button>
-                        <button class="btn bg-primary text-white" href="#" data-bs-toggle="popover"
-                            data-bs-placement="bottom" title="Hooray!">Bottom</button>
-                        <button class="btn bg-primary text-white" href="#" data-bs-toggle="popover"
-                            data-bs-placement="left" title="Hooray!">Left</button>
-                        <button class="btn bg-primary text-white" href="#" data-bs-toggle="popover"
-                            data-bs-placement="right" title="Hooray!">Right</button>
+                        <button class="btn  goUp border-0 bg-primary text-white" href="#" data-bs-toggle="popover"
+                            data-bs-placement="top" title="Top!">Top</button>
+                        <button class="btn goUp border-0  bg-primary text-white" href="#" data-bs-toggle="popover"
+                            data-bs-placement="bottom" title="Bottom!">Bottom</button>
+                        <button class="btn goUp border-0  bg-primary text-white" href="#" data-bs-toggle="popover"
+                            data-bs-placement="left" title="Left!">Left</button>
+                        <button class="btn goUp border-0  bg-primary text-white" href="#" data-bs-toggle="popover"
+                            data-bs-placement="right" title="Right!">Right</button>
                     </div>
                 </div>
             </div>
@@ -1355,6 +1384,14 @@
         <!-- =============  Carousel ============= -->
 
         <section class="carousel">
+            <div class="dot">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="texts">
@@ -1401,7 +1438,8 @@
                                     </p>
                                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                                         <button type="button"
-                                            class="btn bg-white text-dark btn-lg px-4 mt-4 me-md-2">See ALl
+                                            class="btn bg-white border-0 goUp text-dark btn-lg px-4 mt-4 me-md-2">See
+                                            ALl
                                             Components</button>
                                     </div>
                                 </div>
@@ -1438,9 +1476,11 @@
                 <!-- ============= Buttons ============= -->
                 <div class="heroButtons mb-5 lc-block d-grid gap-2 d-sm-flex justify-content-sm-center"
                     bis_skin_checked="1">
-                    <a class="btn bg-primary btn-lg px-4 gap-3 text-white rounded-1" href="#" role="button">VIEW DEMO
+                    <a class="btn bg-primary btn-lg px-4 gap-3 text-white border-0 goUp rounded-1" href="#"
+                        role="button">VIEW DEMO
                         ICONS</a>
-                    <a class="btn bg-dark btn-lg px-4 text-white rounded-1" href="#" role="button">VIEW ALL ICONS</a>
+                    <a class="btn bg-dark btn-lg px-4 text-white border-0 goUp rounded-1" href="#" role="button">VIEW
+                        ALL ICONS</a>
                 </div>
 
                 <!-- Jumbotron -->
@@ -1463,7 +1503,15 @@
         <!-- =============  Register & Login ============= -->
         <!-- Fix Here -->
 
-        <section class="register_login pt-5 carousel">
+        <section class="register_login   pt-5 carousel">
+            <div class="dot">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div class="container py-5 h-50">
                 <div class="row d-flex justify-content-end align-items-center">
                     <div class="col-lg-6 me-5 pe-4 mt-5">
@@ -1475,9 +1523,11 @@
                             powerful Bootstrap 4 Design System.
                         </p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a href="./login.html" type="button" class="btn bg-success text-white btn-lg px-4 mt-4 me-md-2">Login
+                            <a href="./login.html" type="button"
+                                class="btn bg-success text-white btn-lg px-4 border-0 goUp mt-4 me-md-2">Login
                                 page</a>
-                            <button type="button" class="btn bg-white text-dark btn-lg px-4 mt-4 me-md-2">Register
+                            <button type="button"
+                                class="btn bg-white text-dark   border-0 goUp btn-lg px-4 mt-4 me-md-2">Register
                                 Page</button>
                         </div>
                     </div>
@@ -1486,10 +1536,10 @@
                             <div class="card-header bg-white text-center">
                                 <p class="mb-3 fw-light mt-2">Sign in with</p>
                                 <div class="buttons justify-content-center mb-5 d-flex">
-                                    <button class="btn btn-lg btn-block btn-white text-primary mx-2" type="submit"><i
-                                            class="fa-brands fa-github me-2"></i> Github</button>
-                                    <button class="btn btn-lg btn-block text-primary btn-white mx-2" type="submit"><i
-                                            class="fa-brands fa-google me-2"></i>Google</button>
+                                    <button class="btn btn-lg loginGoUp btn-block btn-white text-primary mx-2"
+                                        type="submit"><i class="fa-brands fa-github me-2"></i> Github</button>
+                                    <button class="btn btn-lg loginGoUp btn-block text-primary btn-white mx-2"
+                                        type="submit"><i class="fa-brands fa-google me-2"></i>Google</button>
                                 </div>
                             </div>
                             <div id="loginForm" class="text-center bg-secondary ps-5 pe-5 card-body">
@@ -1497,26 +1547,31 @@
 
                                 <form role="form" onsubmit="signIn(event);" autocomplete="off">
                                     <div class="form-group form-outline mb-4">
-                                        <input type="email" class="rounded-1 form-control form-control-lg" id="mail" placeholder="Email Address" required>
+                                        <input type="email" class="rounded-1 form-control form-control-lg" id="mail"
+                                            placeholder="Email Address" required>
                                         <i class="fa-solid text-muted fa-envelope position-absolute"></i>
 
                                     </div>
                                     <div class="form-group form-outline mb-4">
-                                        <input type="password" class="rounded-1 form-control form-control-lg" name="password" id="password" placeholder="Password" required>
+                                        <input type="password" class="rounded-1 form-control form-control-lg"
+                                            name="password" id="password" placeholder="Password" required>
                                         <i class="fa-solid  text-muted  fa-key position-absolute"></i>
 
                                     </div>
 
-    
+
                                     <!-- Checkbox -->
                                     <div class="form-check d-flex justify-content-start mb-4">
                                         <input class="form-check-input p-2 me-1" type="checkbox" value=""
                                             id="form1Example3" />
                                         <label class="form-check-label" for="form1Example3"> Remember me </label>
-                                        </div>
-    
+                                    </div>
+
                                     <div class="form-group">
-                                        <button type="submit" class="finish btn btn-primary btn-lg btn-block my-3 mb-5"><a class="text-white text-decoration-none" href="./index.html">Login</a></button>
+                                        <button type="submit"
+                                            class="finish btn btn-primary  border-0 goUp  btn-lg btn-block my-3 mb-5"><a
+                                                class="text-white text-decoration-none"
+                                                href="./index.html">Login</a></button>
                                     </div>
                                 </form>
                             </div>
@@ -1528,12 +1583,8 @@
 
         <!-- =============  Presentation ============= -->
 
-
-
-
-
         <section>
-            <div class="carousel_section container-fluid px-4 py-5 my-5 text-center" bis_skin_checked="1">
+            <div class=" carousel_section container-fluid px-4 py-5 my-5 text-center" bis_skin_checked="1">
 
                 <!-- ============= Hero-Logo ============= -->
                 <div class="HeroImage lc-block d-block mx-auto mt-4 mb-4" bis_skin_checked="1">
@@ -1554,7 +1605,8 @@
                 <!-- ============= Buttons ============= -->
                 <div class="heroButtons mb-5 lc-block d-grid gap-2 d-sm-flex justify-content-sm-center"
                     bis_skin_checked="1">
-                    <a class="btn bg-primary btn-lg px-4 gap-3 text-white rounded-1" href="#" role="button">DOWNLOAD
+                    <a class="btn bg-primary btn-lg px-4 gap-3 text-white border-0 goUp rounded-1" href="#"
+                        role="button">DOWNLOAD
                         ANGULAR</a>
                 </div>
 
@@ -1566,7 +1618,8 @@
 
 
                 <!-- ============= Using Techs ============= -->
-                <div class="techs lc-block d-grid mb-5 d-sm-flex justify-content-sm-center" bis_skin_checked="1">
+                <div class="col-sm-12 techs lc-block d-grid mb-5 d-sm-flex justify-content-sm-center"
+                    bis_skin_checked="1">
                     <button class="mx-3" href="#" data-bs-toggle="tooltip" data-bs-placement="top"
                         title="Bootstrap - 4 Most popular front-end component library"><img
                             src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg"
@@ -1605,10 +1658,10 @@
     </main>
     <footer>
 
-        <section class="mb-3 thanks container mx-5">
+        <section class="mb-3  thanks container mx-5">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
-                    <div class="card mb-5">
+                    <div class="goUp card mb-5">
                         <img src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/theme/landing.jpg"
                             class="card-img-top" alt="...">
 
@@ -1619,7 +1672,7 @@
                     </h5>
                 </div>
                 <div class="col">
-                    <div class="card mb-5">
+                    <div class="goUp card mb-5">
                         <img src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/theme/profile.jpg"
                             class="card-img-top" alt="...">
 
@@ -1647,7 +1700,7 @@
                     <p class="ms-5 container">©2022 <span class="text-dark" class="text-primary">Creative Tim</span
                             class="text-dark">.</p>
                 </div>
-                <div class="col-6  justify-content-end d-flex">
+                <div class="col-6 footerNavs  justify-content-end d-flex">
                     <a class="mx-1 me-5  text-decoration-none text-muted" href="">Creative Tim</a>
                     <a class="mx-1 me-5  text-decoration-none text-muted" href="">About Us</a>
                     <a class="mx-1 me-5  text-decoration-none text-muted" href="">Blog</a>

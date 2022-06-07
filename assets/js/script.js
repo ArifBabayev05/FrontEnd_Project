@@ -11,13 +11,17 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 
 
 
+const nameInput = document.getElementById("name");
+const mail = document.getElementById("mail");
+const password = document.getElementById("password");
 
-const nameInput = document.getElementById("name")
-const mail = document.getElementById("mail")
-const password = document.getElementById("password")
 
 
 const signUp = e => {
+
+  function alert() {
+    alert("asdfsgd");
+  }
   let nameInput = document.getElementById('name').value,
     mail = document.getElementById('mail').value,
     password = document.getElementById('password').value;
@@ -35,22 +39,26 @@ const signUp = e => {
     window.location.replace("/index.html");
     formData.push({ nameInput, mail, password });
     localStorage.setItem('formData', JSON.stringify(formData));
+    localStorage.setItem("isLogin", true);
+    exist.preventDefault();
     document.querySelector('form').reset();
     document.getElementById('nameInput').focus();
-    alert("Account Created.\nPlease Sign In Now.");
-    exist.preventDefault();
 
+    // I cant Fix here
+    const nameSection = document.querySelector(".nameSection");
+    nameSection.innerHTML += `<h4 class="mb-4">Maria Smantha</h4>`
   }
   else {
     alert("This Account has Already Exist!");
   }
 
- 
+
+
   e.preventDefault();
 
-  // const strength=document.getElementsByClassName("strength");
 
 }
+
 
 function signIn(e) {
   let mail = document.getElementById('mail').value, password = document.getElementById('password').value;
@@ -64,6 +72,7 @@ function signIn(e) {
   else {
     location.pathname = "index.html";
     window.location.replace("/index.html");
+
   }
 
   e.preventDefault();
@@ -71,3 +80,15 @@ function signIn(e) {
 
 
 
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementsByClassName("navbar").style.top = "0";
+  } else {
+    document.getElementsByClassName("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}

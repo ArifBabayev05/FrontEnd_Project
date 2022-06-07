@@ -14,6 +14,7 @@
     <!--Css  -->
     <link rel="stylesheet" href="./assets/css/profile.css">
     <link rel="stylesheet" href="./assets/css/colors.css">
+    <link rel="stylesheet" href="./assets/css/hover.css">
     <title>FrontEnd Project</title>
 </head>
 
@@ -35,39 +36,36 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
 
-                    <!-- ============= Logo ============= -->
-                    <a href="./index.html" class="navbar-brand">
+                     <!-- ============= Logo ============= -->
+                     <a href="#" class="navbar-brand">
                         <img src="./assets/images/argon-white.png" height="28" alt="CoolBrand">
                     </a>
 
                     <!-- ============= X Button For Small Screen Size ============= -->
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse">
-                        <span class="text-dark" class="navbar-toggler-icon"></span class="text-dark">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <!-- ============= Navigations ============= -->
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav">
                             <div class="dropdown mx-3">
-                                <button class="btn text-white" type="button" id="dropdownMenuButton1"
+                                <button class="btn text-white " type="button" id="dropdownMenuButton1"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Components
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                     <li class="my-2 "><a class="dropdown-item col-12" href="#"><i
                                                 class="purple text-white fa-solid fa-rocket mx-1"></i> <span
-                                                class="text-dark" class="text-dark">Getting Started</span
-                                                class="text-dark"></a></li>
+                                                class="text-dark">Getting Started</span></a></li>
                                     <li class="my-2 "><a class="dropdown-item col-12" href="#"><i
                                                 class="green text-white fa-solid fa-palette mx-1"></i><span
-                                                class="text-dark" class="text-primary">Foundation</span
-                                                class="text-dark"></a>
+                                                class="text-primary">Foundation</span></a>
                                     </li>
                                     <li class="my-2 "><a class="dropdown-item col-12" href="#"><i
                                                 class="orange text-white fa-solid fa-toggle-off mx-1"></i><span
-                                                class="text-dark" class="text-warning">Components</span
-                                                class="text-dark"></a>
+                                                class="text-warning">Components</span></a>
                                     </li>
 
                                 </ul>
@@ -82,11 +80,12 @@
                                     <li><a class="dropdown-item" href="./profile.html">Profile</a></li>
                                     <li><a class="dropdown-item" href="./login.html">Login</a></li>
                                     <li><a class="dropdown-item" href="./register.html">Register</a></li>
+                                </ul>
                             </div>
 
                         </div>
 
-                        <!-- ============= Social Media  icons d-flex ============= -->
+                        <!-- ============= Social Media Icons ============= -->
                         <div class="navbar-nav ms-auto">
                             <div class="socials mt-2 me-3">
                                 <i class="fa-brands  me-2 text-white fa-facebook-square"></i>
@@ -97,11 +96,12 @@
 
                             </div>
                             <!-- ============= Download Button ============= -->
-                            <button type="button" class="btn bg-white text-primary"><i
-                                    class="fa-solid fa-cloud-arrow-down me-2"></i>Download</button>
+                            <button type="button" class="btn border-0 bg-white text-primary"><i
+                                    class="nonOutline fa-solid fa-cloud-arrow-down  me-2"></i>Download</button>
 
                         </div>
                     </div>
+                </div>
                 </div>
             </nav>
         </div>
@@ -123,7 +123,7 @@
 
 
     <!-- ============= Cards ============= -->
-    <section class="members container" >
+    <form class="members container" >
       
         <div class="row position-relative w-100 text-center">
           <div class="col-md-12 mb-md-0">
@@ -136,7 +136,8 @@
                   class="rounded-circle img-fluid" />
               </div>
               <div class="name card-body">
-                <h4 class="mb-4">Maria Smantha</h4>
+                  <!-- I cant set here with Js -->
+                <div class="nameSection"><h4 class="mb-4">Maria Smantha</h4></div>
                 <p>Baku, Azerbaijan</p>
 
                 <h5 class="fw-light">Solution Manager - Creative Tim Officer</h5>
@@ -152,7 +153,7 @@
           
           </div>
         </div>
-      </section>
+    </form>
 
 
 
