@@ -92,3 +92,9 @@ function signIn(e) {
 //   }
 //   prevScrollpos = currentScrollPos;
 // }
+
+
+// var Buttons= document.querySelectorAll(".btn");
+
+// Buttons.localStorage("time", setTimeout());
+// Buttons.localStorage("loginDate", setInterval(12,2));
