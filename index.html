@@ -1246,7 +1246,7 @@
                                     <div class="modal-footer py-4 position-relative">
                                         <button type="button" class="left-0 position-absolute btn btn-primary">Save
                                             changes</button>
-                                        <button type="button" class=" text-primary border-0 bg-white "
+                                        <button type="button" class=" text-primary border-0 bg-transparent "
                                             data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
@@ -1263,21 +1263,26 @@
                         <!-- Modal  2-->
                         <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
+                            <div class="modal-dialog ">
+                                <div class="modal-content bg-orange">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Type your modal title</h5>
+                                        <h5 class="modal-title text-white " id="exampleModalLabel">Your attention is
+                                            required
+
+                                        </h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body m-2">
-                                        adisematic country, in which roasted parts of
-                                        sentences fly into your mouth.
+                                    <div class="modal-body notification-body pb-4 m-2">
+                                        <i class="fa-solid fa-bell text-white  fs-2 my-2"></i>
+                                        <h3 class="text-white fs-5">You Should Read This</h3>
+                                        <h3 class="text-white fw-light fs-6">A small river named Duden flows by their
+                                            place and supplies it with the necessary regelialia.</h3>
                                     </div>
                                     <div class="modal-footer py-4 position-relative">
-                                        <button type="button" class="left-0 position-absolute btn btn-primary">Save
-                                            changes</button>
-                                        <button type="button" class=" text-primary border-0 bg-white "
+                                        <button type="button"
+                                            class="left-0 position-absolute text-dark btn  bg-white">OK, GOT IT</button>
+                                        <button type="button" class=" text-white border-0  bg-transparent"
                                             data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
@@ -1288,34 +1293,63 @@
                     <div class="col-md-4">
                         <!-- Button trigger modal -->
                         <button type="button" class="btn colorButton border-0 goUp my-2  btn-default color-white"
-                            data-bs-toggle="modal" data-bs-target="#exampleModal3" style="width: 300px">
+                            data-bs-toggle="modal" data-bs-target="#modalRegisterForm" style="width: 300px">
                             FORM </button>
 
                         <!-- Modal 3-->
-                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
+                        <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog"
+                            aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Type your modal title</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body m-2">
-                                        Far far away, behind the word mountains, far from the countries Vokalia and
-                                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-                                        rightsematic country, in which roasted parts of
-                                        sentences fly into your mouth.
-                                    </div>
-                                    <div class="modal-footer py-4 position-relative">
-                                        <button type="button" class="left-0 position-absolute btn btn-primary">Save
-                                            changes</button>
-                                        <button type="button" class=" text-primary border-0 bg-white "
-                                            data-bs-dismiss="modal">Close</button>
+                                    <div class=" col-12 col-md-8 col-lg-12 col-xl-12">
+                                        <div class="card  shadow-2-strong">
+                                            <div class="card-header bg-white text-center">
+                                                <p class="mb-3 fw-light mt-2">Sign in with</p>
+                                                <div class="buttons justify-content-center mb-5 d-flex">
+                                                    <button class="btn btn-lg loginGoUp btn-block btn-white text-primary mx-2"
+                                                        type="submit"><i class="fa-brands fa-github me-2"></i> Github</button>
+                                                    <button class="btn btn-lg loginGoUp btn-block text-primary btn-white mx-2"
+                                                        type="submit"><i class="fa-brands fa-google me-2"></i>Google</button>
+                                                </div>
+                                            </div>
+                                            <div id="loginForm" class="text-center bg-secondary ps-5 pe-5 card-body">
+                                                <p class="mb-3 fs-8 tex-muted fw-light pb-3 mt-4">Or sign in with credentials</p>
+                
+                                                <form role="form" onsubmit="signIn(event);" autocomplete="off">
+                                                    <div class="form-group form-outline mb-4">
+                                                        <input type="email" class="rounded-1 form-control form-control-lg" id="mail"
+                                                            placeholder="Email Address" required>
+                
+                                                    </div>
+                                                    <div class="form-group form-outline mb-4">
+                                                        <input type="password" class="rounded-1 form-control form-control-lg"
+                                                            name="password" id="password" placeholder="Password" required>
+                
+                                                    </div>
+                
+                
+                                                    <!-- Checkbox -->
+                                                    <div class="form-check d-flex justify-content-start mb-4">
+                                                        <input class="form-check-input p-2 me-1" type="checkbox" value=""
+                                                            id="form1Example3" />
+                                                        <label class="form-check-label" for="form1Example3"> Remember me </label>
+                                                    </div>
+                
+                                                    <div class="form-group">
+                                                        <button type="submit"
+                                                            class="finish btn btn-primary  border-0 goUp  btn-lg btn-block my-3 mb-5"><a
+                                                                class="text-white text-decoration-none"
+                                                                href="./index.html">Login</a></button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
 
 
@@ -1552,7 +1586,7 @@
                     <a class="position-absolute  border-0 px-3 bg-white">
                         <a class="centeredInfo text-success text-decoration-none" href="">Explore All The 21000+ Nucleo
                             Icons</a>
-                         </a>
+                    </a>
 
                 </div>
 
