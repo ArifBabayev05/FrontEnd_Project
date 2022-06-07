@@ -74,6 +74,12 @@
   background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
 }
 
+.text-orange {
+
+  color: #fb6340 !important;
+
+}
+
 .dot {
   border-radius: 50%;
 }
@@ -83,9 +89,10 @@
   display: block;
   border: 5px;
   border-radius: 50%;
-background-color: rgba(220, 220, 220, 0.236);
+  background-color: rgba(220, 220, 220, 0.236);
 
 }
+
 .dot span:nth-child(1) {
   top: 100px;
   left: 150px;
@@ -128,6 +135,7 @@ background-color: rgba(220, 220, 220, 0.236);
   animation-direction: reverse;
   animation-duration: 2.3s;
 }
+
 .dot span:nth-child(5) {
   top: 80px;
   left: 1080px;
@@ -138,6 +146,7 @@ background-color: rgba(220, 220, 220, 0.236);
   animation-direction: reverse;
   animation-duration: 2.3s;
 }
+
 .dot span:nth-child(6) {
   top: 200px;
   left: 1080px;
@@ -200,4 +209,5 @@ background-color: rgba(220, 220, 220, 0.236);
 .bg-warning-transparent {
   background-color: #ff6c4b6f !important;
 }
+
 /*# sourceMappingURL=colors.css.map */

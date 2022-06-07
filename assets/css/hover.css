@@ -1,4 +1,3 @@
-
 :root {
     /* Color */
     --hoverGray: #bbc2cacc;
@@ -42,10 +41,11 @@ a.footerNavs:hover {
     color: var(--hoverGray-Darker) !important;
 }
 
-button.btn.bg-orange.text-white:hover{
+button.btn.bg-orange.text-white:hover {
     position: relative;
     top: -1px;
 }
+
 button.left-0.position-absolute.btn.btn-primary {
     left: 10px;
 }
@@ -53,6 +53,7 @@ button.left-0.position-absolute.btn.btn-primary {
 button.colorButton:hover {
     color: white !important;
 }
+
 .card.col-md-3.goUp.pt-5.container:hover {
     top: var(--cardTop);
     position: relative;
@@ -71,4 +72,142 @@ i.fa-brands:hover {
 a.nav-link:hover {
     color: var(--hoverGray) !important;
 
+}
+
+.m-diamond {
+    font-size: 20px;
+    padding: 15px;
+    width: 60px;
+    margin-top: 150px;
+    border-radius: 50%;
+    color: #5e72e4;
+    /* margin: 100px !important; */
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
+}
+
+.diamond {
+    font-size: 20px;
+    transition: all 0.5s;
+
+    padding: 15px;
+    width: 60px;
+    margin-top: 150px;
+    border-radius: 50%;
+    color: #5e72e4;
+    /* margin: 100px !important; */
+    box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
+}
+
+/* Main Icon */
+.mainIconDia {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+
+}
+
+/* Centered Icons */
+.calendar {
+    left: 20%;
+
+}
+
+.bag {
+    left: 75%;
+}
+
+/* Centered ICons(Near) */
+.backPack {
+    left: 35%;
+}
+
+.picture {
+    left: 61%;
+}
+
+/* Up Icons */
+.chart {
+    left: 29%;
+    top: -50%;
+}
+
+.cardIcon {
+    left: 68%;
+    top: -50%;
+}
+
+/* Middle-Up Icons */
+.play {
+    left: 55%;
+    top: -30%;
+}
+
+.atom {
+    top: -30%;
+    left: 40%;
+}
+
+/* Middle-Down Icons */
+.building {
+    left: 55%;
+    top: 30%;
+}
+
+.cube {
+    top: 30%;
+    left: 40%;
+}
+
+section.register_login.pt-5.carousel {
+    margin-top: 200px;
+}
+
+/* Down Icons */
+
+.photo {
+    left: 29%;
+    top: 50%;
+}
+
+.bell {
+    left: 68%;
+    top: 50%;
+}
+
+/* Hover */
+.m-diamond:hover{
+    filter: blur(2px);
+}
+
+
+.m-diamond:hover~.diamond {
+    transform: scale(0);
+    transition: all 0.5s;
+    left: 47%;
+    top: 0;
+}
+.m-diamond:hover~.centeredInfo {
+opacity: 1;
+    transition: all 0.5s;
+    transition-delay: 0.1s;
+}
+
+
+.centerInfo {
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    position: relative;
+    left: 36%;
+    z-index: 999;
+    display: flex;
+}
+.centeredInfo{
+    font-size: 17px;
+}
+a.centeredInfo{
+    position: absolute;
+    top: 180px;
+    left: 39%;
+opacity: 0;
 }
