@@ -1,0 +1,74 @@
+
+:root {
+    /* Color */
+    --hoverGray: #bbc2cacc;
+    --hoverGray-Darker: #838a92d3;
+    --primary: #5e72e4;
+
+    /* Hover to top */
+    --top: -1.5px;
+    --cardTop: -15px;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+a.goUp:hover {
+    top: var(--top);
+    position: relative;
+}
+
+button.goUp:hover {
+    top: var(--top) !important;
+    position: relative !important;
+}
+
+.goUp.card.mb-5:hover {
+    top: var(--cardTop);
+    position: relative;
+}
+
+
+button.loginGoUp:hover {
+    top: var(--top) !important;
+    transform: scale(1.005);
+    position: relative !important;
+    color: black !important;
+}
+
+a.footerNavs:hover {
+    color: var(--hoverGray-Darker) !important;
+}
+
+button.btn.bg-orange.text-white:hover{
+    position: relative;
+    top: -1px;
+}
+button.left-0.position-absolute.btn.btn-primary {
+    left: 10px;
+}
+
+button.colorButton:hover {
+    color: white !important;
+}
+.card.col-md-3.goUp.pt-5.container:hover {
+    top: var(--cardTop);
+    position: relative;
+}
+
+button#dropdownMenuButton1:hover {
+    color: var(--hoverGray) !important;
+}
+
+i.fa-brands:hover {
+    cursor: pointer;
+    color: var(--hoverGray) !important;
+
+}
+
+a.nav-link:hover {
+    color: var(--hoverGray) !important;
+
+}

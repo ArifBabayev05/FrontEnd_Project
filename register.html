@@ -14,6 +14,7 @@
     <!--Css  -->
     <link rel="stylesheet" href="./assets/css/register.css">
     <link rel="stylesheet" href="./assets/css/colors.css">
+    <link rel="stylesheet" href="./assets/css/hover.css">
     <title>FrontEnd Project</title>
 </head>
 
@@ -126,33 +127,40 @@
 
                                 <form role="form" onsubmit="signUp(event);" autocomplete="off">
                                     <div class="form-group form-outline mb-4">
-                                        <input type="text" class="rounded-1 form-control form-control-lg" name="firstName" id="name" placeholder="First Name" required>
+                                        <input type="text" class="rounded-1 form-control form-control-lg"
+                                            name="firstName" id="name" placeholder="First Name" required>
                                         <i class="fa-solid fa-graduation-cap position-absolute text-muted"></i>
-                                        
+
                                     </div>
                                     <div class="form-group form-outline mb-4">
-                                        <input type="email" class="rounded-1 form-control form-control-lg" id="mail" placeholder="Email Address" required>
+                                        <input type="email" class="rounded-1 form-control form-control-lg" id="mail"
+                                            placeholder="Email Address" required>
                                         <i class="fa-solid text-muted fa-envelope position-absolute"></i>
 
                                     </div>
                                     <div class="form-group form-outline mb-4">
-                                        <input type="password" class="rounded-1 form-control form-control-lg" name="password" id="password" placeholder="Password" required>
+                                        <input type="password" class="rounded-1 psInput form-control form-control-lg"
+                                            name="password" id="password" placeholder="Password" maxlength="12" required>
                                         <i class="fa-solid text-muted fa-key position-absolute"></i>
 
                                     </div>
                                     <div class="strength pt-4 d-flex justify-content-start mb-4">
-                                        <i class="text-muted" style="font-size: 14px;">password strength: <span class="text-success fw-bold">strong</span></i>
+                                        <i class="text-muted" style="font-size: 14px;">password strength: <span
+                                                class="text-success fw-bold">strong</span></i>
                                     </div>
-    
+
                                     <!-- Checkbox -->
                                     <div class="form-check d-flex justify-content-start mb-4">
                                         <input class="form-check-input p-2 me-1" type="checkbox" checked value=""
                                             id="form1Example3" />
-                                        <label class="form-check-label" for="form1Example3"> I agree with the <span style="cursor: pointer;" class="text-primary" >Privacy Policy</span> </label>
-                                        </div>
-    
+                                        <label class="form-check-label" for="form1Example3"> I agree with the <span
+                                                style="cursor: pointer;" class="text-primary">Privacy Policy</span>
+                                        </label>
+                                    </div>
+
+
                                     <div class="form-group">
-                                        <button type="submit" class="finish btn btn-primary btn-lg btn-block my-3 mb-5"><a class="text-white text-decoration-none" href="./login.html">Create Account</a></button>
+                                        <button type="submit" href="./login.html" class="finish goUp border-0 btn btn-primary btn-lg btn-block my-3 mb-5"><a class="text-white  goUp text-decoration-none"onsubmit="signUp(event);" >Create Account</a></button>
                                     </div>
                                 </form>
                             </div>
