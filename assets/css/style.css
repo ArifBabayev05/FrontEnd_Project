@@ -58,13 +58,13 @@ header .proudly img {
   width: 120px;
   height: 30px;
 }
-  
 
 main {
   color: #525f7f !important;
 }
 
 main .btn {
+  border: none;
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 4px;
@@ -147,9 +147,6 @@ main .alternative_intro input {
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 12px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 12px;
 }
-button.left-0.position-absolute.text-dark.btn.bg-white {
-  left: 10px;
-}
 
 main .alternative_intro .zoom {
   right: 3%;
@@ -219,7 +216,12 @@ main .tabs .card {
   -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
           box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
 }
-
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
+}
 main .tabs .card-header {
   border: none;
 }
@@ -342,9 +344,7 @@ main .carousel #carouselExampleIndicators {
 main .carousel #carouselExampleIndicators .carousel-inner {
   border-radius: 5px;
 }
-.modal-body.notification-body.m-2 {
-  text-align: center;
-}
+
 main .register_login .card {
   -webkit-transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
           transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);

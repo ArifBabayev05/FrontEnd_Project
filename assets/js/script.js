@@ -16,18 +16,13 @@ const mail = document.getElementById("mail");
 const password = document.getElementById("password");
 
 
-
 const signUp = e => {
 
-  function alert() {
-    alert("asdfsgd");
-  }
   let nameInput = document.getElementById('name').value,
     mail = document.getElementById('mail').value,
     password = document.getElementById('password').value;
 
   let formData = JSON.parse(localStorage.getItem('formData')) || [];
-
 
   let exist = formData.length &&
     JSON.parse(localStorage.getItem('formData')).some(data =>
@@ -44,6 +39,7 @@ const signUp = e => {
     document.querySelector('form').reset();
     document.getElementById('nameInput').focus();
 
+
     // I cant Fix here
     const nameSection = document.querySelector(".nameSection");
     nameSection.innerHTML += `<h4 class="mb-4">Maria Smantha</h4>`
@@ -56,8 +52,8 @@ const signUp = e => {
 
   e.preventDefault();
 
-
 }
+
 
 
 function signIn(e) {
@@ -80,15 +76,3 @@ function signIn(e) {
 
 
 
-
-
-// var prevScrollpos = window.pageYOffset;
-// window.onscroll = function() {
-// var currentScrollPos = window.pageYOffset;
-//   if (prevScrollpos > currentScrollPos) {
-//     document.getElementsByClassName("navbar").style.top = "0";
-//   } else {
-//     document.getElementsByClassName("navbar").style.top = "-50px";
-//   }
-//   prevScrollpos = currentScrollPos;
-// }

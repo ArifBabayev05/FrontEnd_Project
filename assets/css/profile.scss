@@ -51,21 +51,23 @@ header {
 .members{
     height: 300px;
 
+
     .row{
         top: -200px;
         .card.testimonial-card {
 
-            padding-top: 110px;
-            
+           .image{
+               top: -70px;
+               justify-content: center;
+               position: relative;
+               width: 200px;
+               height: 200px;
+               display: inline-flex;
             img{
                 position: absolute;
-                top: -130px;
-                left: 420px;
-                justify-content: center;
-                text-align: center;
-                align-content: center;
                 
             }
+           }
             .textArea{
                 padding: 20px 120px;
             }
