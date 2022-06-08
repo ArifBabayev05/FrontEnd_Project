@@ -127,8 +127,6 @@ main .interface {
   background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
-
-
 main .interface .card {
   position: relative;
   padding: 0 40px;
@@ -232,8 +230,6 @@ main .wantToWork input, main .wantToWork textarea, main .wantToWork button {
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
 }
-
-
 
 main .btn {
   font-weight: 500;

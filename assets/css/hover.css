@@ -29,7 +29,6 @@ button.goUp:hover {
     position: relative;
 }
 
-
 button.loginGoUp:hover {
     top: var(--top) !important;
     transform: scale(1.005);
@@ -80,7 +79,7 @@ a.nav-link:hover {
     width: 60px;
     margin-top: 150px;
     border-radius: 50%;
-    color: #5e72e4;
+    color: orange;
     /* margin: 100px !important; */
     box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
 }
@@ -175,7 +174,7 @@ section.register_login.pt-5.carousel {
 }
 
 /* Hover */
-.m-diamond:hover{
+.m-diamond:hover {
     filter: blur(2px);
 }
 
@@ -186,11 +185,14 @@ section.register_login.pt-5.carousel {
     left: 47%;
     top: 0;
 }
+
 .m-diamond:hover~.centeredInfo {
-opacity: 1;
+    opacity: 1;
     transition: all 0.5s;
     transition-delay: 0.1s;
 }
+
+
 
 
 .centerInfo {
@@ -202,12 +204,42 @@ opacity: 1;
     z-index: 999;
     display: flex;
 }
-.centeredInfo{
+
+.centeredInfo {
     font-size: 17px;
 }
-a.centeredInfo{
+
+a.centeredInfo {
     position: absolute;
     top: 180px;
     left: 39%;
-opacity: 0;
+    opacity: 0;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.05rem rgba(82, 82, 82, 0.203) !important;
+    border: none;
+}
+.error:focus {
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 .05rem rgba(212, 6, 6, 0.859) !important;
+    border: none;
+}
+.success:focus{
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 .05rem rgba(11, 230, 44, 0.859) !important;
+    border: none;
 }

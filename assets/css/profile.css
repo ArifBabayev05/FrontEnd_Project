@@ -48,20 +48,21 @@ header .dropdown .orange {
   top: -200px;
 }
 
-.members .row .card.testimonial-card {
-  padding-top: 110px;
-}
-
-.members .row .card.testimonial-card img {
-  position: absolute;
-  top: -130px;
-  left: 420px;
+.members .row .card.testimonial-card .image {
+  top: -70px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.members .row .card.testimonial-card .image img {
+  position: absolute;
 }
 
 .members .row .card.testimonial-card .textArea {
