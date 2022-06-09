@@ -46,6 +46,82 @@
   background-color: #2dce89 !important;
 }
 
+
+.dot {
+  border-radius: 50%;
+}
+
+.dot span {
+  position: absolute;
+  display: block;
+  border: 5px;
+  border-radius: 50%;
+background-color: rgba(220, 220, 220, 0.236);
+
+}
+.dot span:nth-child(1) {
+  top: 100px;
+  left: 150px;
+  height: 160px;
+  width: 160px;
+  opacity: 0.7;
+  animation-delay: 0.3s;
+  animation-direction: reverse;
+}
+
+.dot span:nth-child(2) {
+  top: -4px;
+  left: -40px;
+  height: 110px;
+  width: 110px;
+  opacity: 0.9;
+  animation-delay: 0.3s;
+  animation-direction: reverse;
+  animation-duration: 2.3s;
+}
+
+.dot span:nth-child(3) {
+  top: 150px;
+  left: 100px;
+  height: 140px;
+  width: 140px;
+  opacity: 0.9;
+  animation-delay: 0.5s;
+  animation-direction: reverse;
+  animation-duration: 2.6s;
+}
+
+.dot span:nth-child(4) {
+  top: 240px;
+  left: 900px;
+  height: 80px;
+  width: 80px;
+  opacity: 0.9;
+  animation-delay: 0.7s;
+  animation-direction: reverse;
+  animation-duration: 2.3s;
+}
+.dot span:nth-child(5) {
+  top: 80px;
+  left: 1080px;
+  height: 100px;
+  width: 100px;
+  opacity: 0.9;
+  animation-delay: 0.7s;
+  animation-direction: reverse;
+  animation-duration: 2.3s;
+}
+.dot span:nth-child(6) {
+  top: 200px;
+  left: 1080px;
+  height: 200px;
+  width: 200px;
+  opacity: 0.9;
+  animation-delay: 0.7s;
+  animation-direction: reverse;
+  animation-duration: 2.3s;
+}
+
 .bg-danger {
   background-color: #ff0033 !important;
 }
