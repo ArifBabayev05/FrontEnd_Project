@@ -1,0 +1,377 @@
+@import "./colors.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+
+    .dropdown {
+        button {
+            border: none;
+            background-color: var();
+        }
+
+        i {
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            padding-top: 12px;
+            border-radius: 50%;
+        }
+
+        .purple {
+            background-color: #7f53ac;
+            background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+        }
+
+        .green {
+            background-color: #7ee8fa;
+            background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+
+        }
+
+        .orange {
+            background-color: #ff4e00;
+            background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+
+        }
+        
+    }
+  
+
+    .HeroImage {
+
+        transform: scale(0.4);
+    }
+
+    .heroButtons {
+        a {
+            span {
+                color: #fb6340;
+            }
+        }
+    }
+
+    .proudly {
+        p {
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        img {
+            width: 120px;
+            height: 30px;
+        }
+    }
+
+
+}
+
+main {
+    color: #525f7f !important;
+    .btn {
+        border: none;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    a {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    
+        .outline_intro {
+        .btn {
+            box-shadow: none;
+        }
+    }
+
+    .inputs_intro {
+
+        .zoom {
+            right: 3%;
+            top: 30%;
+        }
+        .input:focus{
+            outline: 10px !important;
+        }
+
+
+        .success {
+            border: 1px solid #2dce89;
+        }
+
+        .success::placeholder {
+            color: #2dce89
+        }
+
+        .error::placeholder {
+            color: #fb6340;
+        }
+
+        .error {
+            border: 1px solid #fb6340;
+        }
+
+        i {
+            color: rgba(128, 128, 128, 0.853);
+        }
+    }
+
+    .alternative_intro {
+        background-color: #f4f5f7;
+
+        input {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 12px;
+
+        }
+
+        .zoom {
+            right: 3%;
+            top: 30%;
+        }
+
+        .success::placeholder {
+            color: #2dce89
+        }
+
+        .error::placeholder {
+            color: #fb6340;
+        }
+
+        i {
+            color: rgba(128, 128, 128, 0.853);
+        }
+    }
+
+    .menu_intro {
+        .navs {
+            width: 315px;
+        }
+    }
+
+    .tabs {
+
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            color: #fff;
+            background-color: #5e72e4;
+        }
+
+        li.nav-item {
+            width: 33%;
+        }
+
+        button {
+            width: 95%;
+            margin: 0 10px;
+            box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        }
+
+
+        .card {
+            background: none;
+            border: none;
+            box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
+        }
+
+        .card-header {
+            border: none;
+        }
+    }
+
+    .progress_bar {
+        span {
+            background-color: rgba(94, 114, 228, .1);
+            color: #5e72e4;
+            border-radius: 10px;
+            padding: 0px 10px;
+            font-size: 14px;
+        }
+
+        .progress {
+            height: 10px;
+        }
+    }
+
+    .pagination {
+        a {
+            margin: 0 3px;
+            border-radius: 50%;
+            width: 40px;
+            text-align: center;
+
+            .number:hover {
+                background-color: red;
+            }
+        }
+    }
+
+    .pill {
+
+        .atom {
+            background-color: #5e72e4;
+            padding: 20px;
+            margin-right: 10px;
+            border-radius: 50%;
+            display: flex;
+            width: 55px;
+
+            i {
+                color: white;
+
+            }
+        }
+
+        .message {
+            padding: 20px;
+            margin-right: 10px;
+            border-radius: 50%;
+            width: 55px;
+            box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
+
+            i {
+                color: #9888aa;
+
+            }
+        }
+    }
+
+    .texts {
+        .title {
+            font-weight: 400;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 400;
+
+        }
+
+        .col-3,
+        .col-9 {
+            align-items: center;
+            display: flex;
+            margin: 15px 0;
+        }
+
+        .col-9 {
+            p {
+                font-size: 1rem;
+                font-weight: 300;
+                line-height: 1.7;
+            }
+        }
+    }
+
+    .date {
+        input {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid gainsboro;
+            border-radius: 5px;
+        }
+    }
+
+    .Tooltips_Popovers {
+        .tooltips {
+            button {
+                transform: scale(0.8);
+            }
+        }
+    }
+
+    .carousel {
+        clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+
+        .col-md-6 {
+            padding: 150px 0;
+        }
+
+        .texts {
+            align-items: center;
+            top: 400px;
+        }
+
+        background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%);
+
+        #carouselExampleIndicators {
+
+            transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
+
+            .carousel-inner {
+                border-radius: 5px;
+            }
+        }
+    }
+
+   
+    .register_login {
+        .card {
+            transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
+            border-radius: 4px;
+        }
+
+        .card-header {
+            border: none;
+        }
+
+        button {
+            border: none;
+        }
+
+        input {
+            border: none;
+            font-size: 12px;
+        }
+
+        i {
+            margin-top: -25px;
+            right: 13%;
+        }
+    }
+
+
+
+    .techs {
+        button {
+            border: none;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+
+
+        }
+    }
+
+}
+
+footer {
+    .tooltips {
+        text-align: end;
+        display: table-cell;
+
+    }
+}
