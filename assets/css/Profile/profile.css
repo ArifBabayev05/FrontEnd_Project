@@ -1,0 +1,76 @@
+@import url(/Users/babayev_/Desktop/FrontendPro/assets/css/colors.css);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+  background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+}
+
+header .dropdown button {
+  border: none;
+  background-color: var();
+}
+
+header .dropdown i {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 50%;
+}
+
+header .dropdown .purple {
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}
+
+header .dropdown .green {
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+
+header .dropdown .orange {
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+
+.members {
+  height: 300px;
+}
+
+.members .row {
+  top: -200px;
+}
+
+.members .row .card.testimonial-card .image {
+  top: -70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.members .row .card.testimonial-card .image img {
+  position: absolute;
+}
+
+.members .row .card.testimonial-card .textArea {
+  padding: 20px 120px;
+}
+
+footer .tooltips {
+  text-align: end;
+  display: table-cell;
+}
+/*# sourceMappingURL=profile.css.map */
